@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "descriptor": "Estudio de Pilates Clásico en Palma de Mallorca",
+    "description": "Sesiones personalizadas de Pilates Clásico frente al mar en Palma de Mallorca. Reserva tu clase de prueba por 30 €."
+  },
+  "a11y": {
+    "skipToContent": "Saltar al contenido"
+  },
+  "nav": {
+    "home": "Inicio",
+    "luciana": "Luciana",
+    "method": "El Método",
+    "studio": "El Estudio",
+    "sessions": "Sesiones",
+    "trial": "Clase de prueba",
+    "faq": "Preguntas frecuentes",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "trialCta": "Prueba una clase — 30 €",
+    "homeAria": "Ir a la página de inicio",
+    "mainNavAria": "Navegación principal",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "languageLabel": "Idioma"
+  },
+  "mobileBar": {
+    "bookTrial": "Reservar prueba"
+  },
+  "footer": {
+    "descriptor": "Estudio de Pilates Clásico en Palma de Mallorca. Sesiones personalizadas frente al mar.",
+    "closingQuote": "El mar nos recuerda, en cada respiración, que la calma siempre habita en el momento presente.",
+    "explore": "Explorar",
+    "contact": "Contacto",
+    "siteNavAria": "Navegación del pie de página",
+    "privacy": "Privacidad",
+    "cookies": "Cookies",
+    "legalNotice": "Aviso legal",
+    "terms": "Términos",
+    "cookieSettings": "Configurar cookies"
+  },
+  "consent": {
+    "title": "Tu privacidad",
+    "body": "Usamos cookies propias necesarias y, solo con tu permiso, cookies de analítica y de marketing para entender cómo se usa la web y medir nuestras campañas. Puedes cambiar tu decisión en cualquier momento desde «Configurar cookies».",
+    "acceptAll": "Aceptar todas",
+    "rejectAll": "Rechazar todas",
+    "configure": "Configurar",
+    "savePreferences": "Guardar preferencias",
+    "necessaryLabel": "Necesarias",
+    "necessaryDesc": "imprescindibles para que la web funcione. No se pueden desactivar.",
+    "analyticsLabel": "Analítica",
+    "analyticsDesc": "nos ayudan a entender cómo se usa la web (Google Analytics 4).",
+    "marketingLabel": "Marketing",
+    "marketingDesc": "miden nuestras campañas de Google Ads y, en el futuro, Meta."
+  },
+  "whatsapp": {
+    "messages": {
+      "trial": "Hola Luciana, me gustaría reservar mi clase de prueba de Pilates Clásico por 30 €.",
+      "trial-purchased": "Hola Luciana, acabo de comprar mi clase de prueba de Pilates Clásico por 30 €. Me gustaría coordinar día y horario. Mi referencia es: [ID].",
+      "pricing": "Hola Luciana, he visitado tu web y me gustaría conocer los precios de las sesiones de Pilates Clásico.",
+      "private": "Hola Luciana, me interesan las sesiones privadas individuales de Pilates Clásico. ¿Me puedes dar más información?",
+      "duo": "Hola Luciana, nos interesan las sesiones dúo de Pilates Clásico. ¿Nos puedes dar más información?",
+      "general": "Hola Luciana, he visitado tu web y me gustaría recibir información sobre las sesiones de Pilates Clásico.",
+      "blog": "Hola Luciana, he leído un artículo en tu blog y me gustaría saber más sobre las sesiones de Pilates Clásico."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Pilates Clásico frente al mar en Palma de Mallorca",
+      "subtitle": "Sesiones personalizadas para fortalecer el cuerpo, mejorar la postura y moverte con mayor conciencia.",
+      "ctaPrimary": "Prueba una clase por 30 €",
+      "ctaSecondary": "Hablar con Luciana",
+      "imageAlt": "El estudio de Pilates Clásico de Luciana, con luz natural y vistas al mar"
+    },
+    "value": {
+      "eyebrow": "Un espacio con intención",
+      "title": "El método clásico, cerca del mar",
+      "items": [
+        { "title": "Método clásico", "text": "Trabajo fiel a la enseñanza original de Joseph Pilates: orden, precisión y propósito en cada movimiento." },
+        { "title": "Atención personalizada", "text": "Cada sesión se adapta a tu historia, tus necesidades y tu momento. Nunca una clase genérica." },
+        { "title": "Equipamiento especializado", "text": "Aparatos del método clásico, en gran parte Gratz, inspirados en los diseños originales." },
+        { "title": "Frente al mar", "text": "La luz natural y el horizonte acompañan la práctica y refuerzan la calma y la presencia." },
+        { "title": "Cuerpo, mente y respiración", "text": "Una práctica que conecta el movimiento con la respiración y la atención al momento presente." }
+      ]
+    },
+    "about": {
+      "eyebrow": "Sobre Luciana",
+      "title": "Una maestra que sigue siendo aprendiz",
+      "text": "El camino de Luciana comenzó hace ocho años a través del masaje y el trabajo corporal, y se transformó cuando descubrió el Pilates. Formada en Buenos Aires y en contacto con la tradición clásica europea, entiende la enseñanza como una forma de servicio.",
+      "cta": "Conocer a Luciana",
+      "imageAlt": "Retrato de Luciana en su estudio"
+    },
+    "method": {
+      "eyebrow": "El Método",
+      "title": "¿Qué es el Pilates Clásico?",
+      "text": "El Pilates Clásico conserva el orden, los principios y los aparatos que Joseph Pilates diseñó: concentración, control, centro, fluidez, precisión y respiración. Un sistema completo que organiza el cuerpo desde su centro hacia las extremidades.",
+      "cta": "Descubrir el método"
+    },
+    "studio": {
+      "eyebrow": "El Estudio",
+      "title": "Un lugar para dejar fuera el ruido",
+      "text": "Un espacio creado con intención frente al mar: las vistas, el horizonte y la luz natural acompañan cada sesión y refuerzan una sensación de calma y presencia.",
+      "cta": "Visitar el estudio",
+      "imageAlt": "Vista del mar desde el estudio"
+    },
+    "sessions": {
+      "eyebrow": "Sesiones",
+      "title": "Sesiones personalizadas, individuales o en dúo",
+      "text": "Cada sesión se diseña para ti: tu historia, tus objetivos y tu proceso. Puedes practicar en sesión individual o compartirla en dúo con otra persona.",
+      "cta": "Consultar modalidades por WhatsApp"
+    },
+    "benefits": {
+      "eyebrow": "Beneficios",
+      "title": "Lo que la práctica puede aportarte",
+      "items": [
+        "Fuerza y movilidad",
+        "Conciencia corporal",
+        "Postura y organización del movimiento",
+        "Coordinación",
+        "Respiración consciente",
+        "Sensación de equilibrio y bienestar"
+      ]
+    },
+    "trial": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu primera clase, por 30 €",
+      "text": "Una sesión personalizada para conocerte, escuchar tu cuerpo y mostrarte cómo trabaja el método clásico. Pago online seguro.",
+      "cta": "Reservar mi clase de prueba",
+      "ctaSecondary": "Consultar por WhatsApp"
+    },
+    "faq": {
+      "eyebrow": "Dudas frecuentes",
+      "title": "Preguntas frecuentes",
+      "cta": "Ver todas las preguntas"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Artículos recientes",
+      "cta": "Ver todos los artículos"
+    },
+    "closing": {
+      "quote": "El mar nos recuerda, en cada respiración, que la calma siempre habita en el momento presente.",
+      "cta": "Prueba una clase por 30 €",
+      "ctaSecondary": "Hablar con Luciana"
+    }
+  },
+  "luciana": {
+    "metaTitle": "Sobre Luciana",
+    "metaDescription": "El recorrido de Luciana: del masaje y el trabajo corporal al Pilates Clásico, entre Buenos Aires, Portugal y Palma de Mallorca.",
+    "title": "Sobre Luciana",
+    "intro": "Una historia de escucha, aprendizaje y servicio a través del movimiento.",
+    "imageAlt": "Retrato de Luciana",
+    "sessionImageAlt": "Luciana acompañando una sesión de Pilates Clásico",
+    "body": [
+      "La relación de Luciana con el cuerpo comenzó hace aproximadamente ocho años, a través del masaje Tui-Na y el shiatsu. Aquella etapa le enseñó a escuchar con las manos y a comprender que cada cuerpo guarda su propia historia.",
+      "En 2019 conoció a una persona que le enseñó Pilates y le abrió un camino que transformaría su relación con el cuerpo y consigo misma. Lo que empezó como una práctica se convirtió pronto en una vocación.",
+      "Continuó su formación mediante cursos y talleres. En Buenos Aires se formó con Federico Randazzo, de la escuela IRPA, quien la acompañó durante varios años en su formación y en su experiencia profesional en Argentina.",
+      "En 2025 conoció a Miguel Silva, instructor de la escuela UNO Pilates en Portugal. Ese encuentro amplió su comprensión del cuerpo y dio mayor conciencia y sentido a toda su experiencia anterior.",
+      "Para Luciana, el Pilates es una forma de conectar el cuerpo desde su centro hacia las extremidades y de encontrar una organización interna que transforma cómo nos movemos, cómo respiramos y cómo habitamos el cuerpo.",
+      "Entiende la enseñanza como una forma de servicio: acompañar a cada persona a descubrir su cuerpo y a desarrollar una relación más consciente y amable con el movimiento. Y, al mismo tiempo, sigue considerándose aprendiz."
+    ],
+    "cta": "Reservar una clase de prueba",
+    "ctaSecondary": "Escribir a Luciana"
+  },
+  "method": {
+    "metaTitle": "El Método Pilates Clásico",
+    "metaDescription": "Qué es el Pilates Clásico: los principios, el orden y los aparatos originales de Joseph Pilates, explicados de forma accesible.",
+    "title": "El Método Pilates Clásico",
+    "intro": "Un sistema completo de movimiento, creado por Joseph Pilates, que se transmite fiel a su orden y a sus principios originales.",
+    "imageAlt": "Detalle de un movimiento de Pilates Clásico",
+    "sections": [
+      {
+        "title": "Un método con origen",
+        "text": "Joseph Pilates desarrolló su método —que él llamaba Contrología— durante la primera mitad del siglo XX. El enfoque clásico conserva el repertorio, el orden de los ejercicios y los aparatos tal como fueron concebidos, transmitidos de maestro a alumno desde entonces."
+      },
+      {
+        "title": "Los principios",
+        "text": "Concentración, control, centro, fluidez, precisión y respiración. Seis principios que convierten una serie de ejercicios en una práctica de atención plena: cada movimiento tiene un propósito y una forma de ejecutarse."
+      },
+      {
+        "title": "Del centro a las extremidades",
+        "text": "Todo movimiento nace del centro del cuerpo. Al fortalecer y organizar ese centro, las extremidades se mueven con más libertad, el cuerpo encuentra un mejor alineamiento y la respiración acompaña de forma natural."
+      },
+      {
+        "title": "Los aparatos",
+        "text": "El método se practica en aparatos diseñados por el propio Joseph Pilates, como el Reformer o el Barrel, que guían y acompañan el cuerpo con resortes y superficies precisas. En el estudio trabajamos con equipamiento del método clásico, en gran parte de la marca Gratz, inspirada en los diseños originales."
+      },
+      {
+        "title": "Una práctica para todos",
+        "text": "No necesitas experiencia previa ni una condición física concreta: el método se adapta a cada persona, y la atención personalizada permite avanzar con seguridad y a tu propio ritmo."
+      }
+    ],
+    "cta": "Prueba el método por 30 €",
+    "ctaSecondary": "Preguntar por WhatsApp"
+  },
+  "studio": {
+    "metaTitle": "El Estudio",
+    "metaDescription": "Un estudio de Pilates Clásico frente al mar en Palma de Mallorca: luz natural, calma y equipamiento del método clásico.",
+    "title": "El Estudio",
+    "intro": "Un espacio creado con intención, frente al mar, para dedicar un tiempo a tu propio bienestar.",
+    "imageAlt": "Vistas al mar desde el estudio",
+    "reformerAlt": "Reformer de Pilates Clásico en el estudio",
+    "barrelAlt": "Barrel de Pilates Clásico en el estudio",
+    "atmosphereAlt": "Atmósfera del estudio con luz natural",
+    "body": [
+      "El estudio es un espacio creado con intención, pensado para que cada persona pueda dejar fuera el ruido cotidiano y dedicar un tiempo a su propio bienestar.",
+      "Las vistas, el horizonte, la luz natural y la cercanía del mar acompañan la práctica y refuerzan una sensación de calma y presencia que forma parte del trabajo tanto como los propios ejercicios.",
+      "Trabajamos con equipamiento del Método Pilates Clásico. Gran parte pertenece a Gratz, la marca de referencia inspirada en los diseños originales de Joseph Pilates e importada desde Estados Unidos. El estudio cuenta con equipamiento completo del método, incluidos Reformer y Barrel.",
+      "Las sesiones son personalizadas y se adaptan a la historia, las necesidades y el proceso de cada persona."
+    ],
+    "cta": "Reservar una clase de prueba",
+    "ctaSecondary": "Consultar por WhatsApp"
+  },
+  "sessions": {
+    "metaTitle": "Sesiones personalizadas",
+    "metaDescription": "Sesiones de Pilates Clásico individuales o en dúo en Palma de Mallorca, siempre personalizadas. Consulta modalidades y precios por WhatsApp.",
+    "title": "Sesiones personalizadas",
+    "intro": "Cada sesión se diseña para ti. Sin grupos numerosos, sin rutinas genéricas.",
+    "private": {
+      "title": "Sesión individual",
+      "text": "Atención completa para ti: un trabajo profundo y a medida, ideal para empezar, para afinar la técnica o para acompañar un proceso concreto del cuerpo."
+    },
+    "duo": {
+      "title": "Sesión dúo",
+      "text": "Comparte la sesión con tu pareja, un familiar o un amigo. La atención sigue siendo personalizada: cada cuerpo trabaja según sus propias necesidades."
+    },
+    "durationNote": "La duración exacta de la sesión se confirma al reservar.",
+    "pricingNote": "Los precios y bonos se comparten de forma privada. Escríbenos por WhatsApp y te enviamos toda la información.",
+    "ctaPrivate": "Consultar sesiones individuales",
+    "ctaDuo": "Consultar sesiones dúo",
+    "ctaPricing": "Consultar precios por WhatsApp",
+    "trialTitle": "¿Primera vez en el estudio?",
+    "trialText": "Empieza con una clase de prueba personalizada por 30 €.",
+    "trialCta": "Reservar mi clase de prueba",
+    "imageAlt": "Sesión personalizada de Pilates Clásico"
+  },
+  "trial": {
+    "metaTitle": "Clase de prueba — 30 €",
+    "metaDescription": "Reserva tu clase de prueba personalizada de Pilates Clásico en Palma de Mallorca por 30 €. Pago online seguro y coordinación por WhatsApp.",
+    "title": "Tu clase de prueba",
+    "price": "30 €",
+    "intro": "Una sesión personalizada para conocerte, escuchar tu cuerpo y mostrarte cómo trabaja el Pilates Clásico.",
+    "includesTitle": "Qué incluye",
+    "includes": [
+      "Sesión de prueba completamente personalizada, a solas con Luciana",
+      "Valoración inicial de tu postura, movilidad y objetivos",
+      "Introducción a los aparatos del método clásico",
+      "Recomendación honesta sobre cómo continuar, si decides hacerlo"
+    ],
+    "forWhoTitle": "Para quién es",
+    "forWho": [
+      "Para quienes nunca han practicado Pilates y quieren empezar bien",
+      "Para quienes ya practican y quieren conocer el enfoque clásico",
+      "Para quienes buscan un trabajo corporal consciente y acompañado"
+    ],
+    "durationNote": "La duración exacta se confirma al reservar.",
+    "paymentTitle": "Pago seguro",
+    "paymentText": "El pago se realiza online mediante Stripe, con tarjeta, de forma cifrada y segura. No guardamos ningún dato de tu tarjeta. Tras el pago coordinamos día y hora por WhatsApp.",
+    "cta": "Reservar mi clase de prueba",
+    "ctaSecondary": "Consultar por WhatsApp",
+    "checkoutError": "No se ha podido iniciar el pago. Inténtalo de nuevo o escríbenos por WhatsApp.",
+    "checkoutLoading": "Preparando el pago seguro…",
+    "imageAlt": "Sesión de Pilates Clásico en el estudio",
+    "scheduleTitle": "Reserva de horario",
+    "scheduleText": "Tras el pago coordinamos día y hora directamente por WhatsApp. Muy pronto podrás elegir tu horario online desde aquí."
+  },
+  "faq": {
+    "metaTitle": "Preguntas frecuentes",
+    "metaDescription": "Respuestas a las preguntas más frecuentes sobre el Pilates Clásico, la clase de prueba, las sesiones y el estudio en Palma de Mallorca.",
+    "title": "Preguntas frecuentes",
+    "intro": "Todo lo que necesitas saber antes de tu primera sesión.",
+    "items": [
+      { "question": "¿Qué es el Pilates Clásico?", "answer": "Es el método original creado por Joseph Pilates, transmitido con su repertorio, su orden y sus aparatos tal como fueron concebidos. Trabaja el cuerpo desde el centro hacia las extremidades con seis principios: concentración, control, centro, fluidez, precisión y respiración." },
+      { "question": "¿Necesito experiencia previa?", "answer": "No. Las sesiones son personalizadas y se adaptan por completo a tu punto de partida. La clase de prueba sirve precisamente para conocer tu cuerpo y tu momento." },
+      { "question": "¿La clase de prueba es personalizada?", "answer": "Sí. Es una sesión individual con Luciana, dedicada a valorar tu postura, tu movilidad y tus objetivos, y a que experimentes el método con los aparatos clásicos." },
+      { "question": "¿Qué ropa debo llevar?", "answer": "Ropa cómoda y ajustada que permita ver el movimiento, y calcetines. No necesitas calzado deportivo: se practica descalzo o con calcetines." },
+      { "question": "¿Dónde está ubicado el estudio?", "answer": "El estudio está en Palma de Mallorca, frente al mar. Al reservar te enviamos la dirección exacta y cómo llegar." },
+      { "question": "¿Las sesiones son individuales o en dúo?", "answer": "Ambas. Puedes practicar en sesión individual, con atención completa para ti, o en dúo con otra persona, manteniendo un trabajo personalizado para cada cuerpo." },
+      { "question": "¿Cuánto dura una sesión?", "answer": "La duración exacta se confirma al reservar." },
+      { "question": "¿Cómo consulto los precios?", "answer": "La clase de prueba cuesta 30 €. El resto de modalidades y bonos se comparten de forma privada: escríbenos por WhatsApp y te enviamos toda la información." },
+      { "question": "¿Cómo reservo mi clase de prueba?", "answer": "Desde la página de la clase de prueba: el pago se realiza online de forma segura y después coordinamos día y hora por WhatsApp." },
+      { "question": "¿Cómo funciona el pago?", "answer": "El pago online se procesa con Stripe, de forma cifrada y segura, con tarjeta. No guardamos ningún dato de tu tarjeta." },
+      { "question": "¿Puedo cambiar o cancelar una reserva?", "answer": "Sí, contactándonos por WhatsApp con antelación. Las condiciones concretas de cambios y cancelaciones se confirman al reservar." },
+      { "question": "¿Qué aparatos se utilizan?", "answer": "Trabajamos con equipamiento del método clásico, en gran parte de la marca Gratz, incluidos Reformer y Barrel, además del trabajo en suelo (Mat)." },
+      { "question": "¿Es adecuado si tengo una lesión o condición médica?", "answer": "El trabajo personalizado permite adaptar la práctica a muchas situaciones, pero no sustituye la atención sanitaria. Si tienes una lesión o condición médica, consulta primero con un profesional sanitario y cuéntanoslo antes de empezar para adaptar la sesión con seguridad." },
+      { "question": "¿En qué idiomas se ofrecen las sesiones?", "answer": "Escríbenos por WhatsApp y lo confirmamos según tu idioma de preferencia." }
+    ]
+  },
+  "contact": {
+    "metaTitle": "Contacto",
+    "metaDescription": "Escribe a Luciana para consultar sesiones de Pilates Clásico en Palma de Mallorca: WhatsApp, email o formulario de contacto.",
+    "title": "Contacto",
+    "intro": "Escríbenos por WhatsApp para una respuesta más rápida, o usa el formulario y te contestamos lo antes posible.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "La forma más directa de hablar con Luciana.",
+    "whatsappCta": "Abrir WhatsApp",
+    "form": {
+      "title": "Formulario de contacto",
+      "name": "Nombre",
+      "contactField": "Email o teléfono",
+      "preference": "¿Cómo prefieres que te contactemos?",
+      "preferenceEmail": "Email",
+      "preferencePhone": "Teléfono / WhatsApp",
+      "message": "Mensaje",
+      "consent": "He leído y acepto la política de privacidad.",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "Gracias por tu mensaje. Te responderemos lo antes posible.",
+      "error": "No se ha podido enviar el mensaje. Inténtalo de nuevo o escríbenos por WhatsApp.",
+      "validationName": "Escribe tu nombre.",
+      "validationContact": "Indica un email o un teléfono para poder responderte.",
+      "validationMessage": "Escribe tu mensaje.",
+      "validationConsent": "Debes aceptar la política de privacidad."
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Artículos sobre Pilates Clásico, respiración, conciencia corporal y bienestar junto al mar, desde Palma de Mallorca.",
+    "title": "Blog",
+    "intro": "Notas sobre el método clásico, la respiración y el movimiento consciente.",
+    "readingTime": "{minutes} min de lectura",
+    "updatedOn": "Actualizado el {date}",
+    "publishedOn": "Publicado el {date}",
+    "byAuthor": "Por {author}",
+    "backToBlog": "Volver al blog",
+    "tocTitle": "En este artículo",
+    "relatedCta": "¿Quieres experimentar el método?",
+    "relatedCtaButton": "Reserva tu clase de prueba — 30 €",
+    "relatedCtaWhatsApp": "Consultar por WhatsApp",
+    "categoriesTitle": "Categorías",
+    "emptyState": "Muy pronto publicaremos nuevos artículos."
+  },
+  "payment": {
+    "successMetaTitle": "Pago confirmado",
+    "successTitle": "¡Gracias! Tu clase de prueba está confirmada",
+    "successText": "Hemos recibido tu pago de 30 €. Este es tu identificador de reserva:",
+    "successNoRef": "Hemos recibido tu pago de 30 €.",
+    "successNext": "Ahora solo falta coordinar el día y la hora. Escríbenos por WhatsApp con tu referencia y lo organizamos.",
+    "successCta": "Coordinar por WhatsApp",
+    "cancelMetaTitle": "Pago cancelado",
+    "cancelTitle": "Pago cancelado",
+    "cancelText": "No se ha realizado ningún cargo. Puedes intentarlo de nuevo cuando quieras o escribirnos por WhatsApp si tuviste algún problema con el pago.",
+    "cancelCta": "Volver a la clase de prueba",
+    "cancelCtaSecondary": "Consultar por WhatsApp"
+  },
+  "ads": {
+    "metaTitle": "Clase de prueba de Pilates Clásico en Palma — 30 €",
+    "metaDescription": "Prueba el Pilates Clásico en un estudio frente al mar en Palma de Mallorca. Clase personalizada de prueba por 30 €, con pago online seguro.",
+    "title": "Clase de prueba de Pilates Clásico en Palma — 30 €",
+    "subtitle": "Una sesión personalizada, a solas con tu instructora, en un estudio frente al mar.",
+    "cta": "Reservar mi clase de prueba",
+    "ctaSecondary": "Consultar por WhatsApp",
+    "bullets": [
+      "Sesión 100 % personalizada, no una clase en grupo",
+      "Equipamiento del método clásico (Gratz, Reformer, Barrel)",
+      "Estudio con luz natural y vistas al mar en Palma",
+      "Pago online seguro con Stripe; coordinamos horario por WhatsApp"
+    ],
+    "trustTitle": "Sin compromiso",
+    "trustText": "La clase de prueba no te obliga a nada: es una sesión completa para conocer el método y decidir con calma."
+  },
+  "notFound": {
+    "metaTitle": "Página no encontrada",
+    "title": "Esta página no existe",
+    "text": "Puede que el enlace haya cambiado. Respira: desde aquí puedes volver al inicio.",
+    "cta": "Volver al inicio"
+  },
+  "legal": {
+    "reviewNotice": "Documento provisional generado como plantilla. Pendiente de revisión por un profesional legal antes del lanzamiento.",
+    "privacy": {
+      "metaTitle": "Política de privacidad",
+      "title": "Política de privacidad",
+      "sections": [
+        { "title": "Responsable del tratamiento", "text": "[PLACEHOLDER: nombre o razón social, NIF, dirección y email de contacto del responsable. Pendiente de datos fiscales definitivos.]" },
+        { "title": "Datos que tratamos", "text": "Los datos que nos facilitas a través del formulario de contacto (nombre, email o teléfono y mensaje), los datos necesarios para procesar el pago de la clase de prueba (gestionados por Stripe; no almacenamos datos de tarjeta) y, solo con tu consentimiento, datos de analítica de uso de la web." },
+        { "title": "Finalidad y legitimación", "text": "Responder a tus consultas (interés legítimo / medidas precontractuales), gestionar la reserva y el pago de la clase de prueba (ejecución de contrato) y analizar el uso de la web (consentimiento)." },
+        { "title": "Destinatarios", "text": "Stripe (procesamiento de pagos), el proveedor de alojamiento web y, con tu consentimiento, Google (analítica y publicidad). No vendemos ni cedemos tus datos a terceros con fines comerciales." },
+        { "title": "Conservación", "text": "Conservamos los datos el tiempo necesario para atender tu consulta o gestionar tu reserva, y los plazos exigidos por la normativa fiscal cuando corresponda." },
+        { "title": "Tus derechos", "text": "Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo al email de contacto. También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es)." }
+      ]
+    },
+    "cookiesPage": {
+      "metaTitle": "Política de cookies",
+      "title": "Política de cookies",
+      "sections": [
+        { "title": "Qué son las cookies", "text": "Pequeños archivos que se almacenan en tu dispositivo al navegar. Usamos cookies propias necesarias y, solo con tu consentimiento, cookies de terceros de analítica y marketing." },
+        { "title": "Cookies necesarias", "text": "Imprescindibles para el funcionamiento de la web (por ejemplo, recordar tu decisión sobre cookies). No requieren consentimiento." },
+        { "title": "Cookies de analítica", "text": "Google Analytics 4, a través de Google Tag Manager. Solo se cargan si las aceptas. Nos ayudan a entender cómo se usa la web." },
+        { "title": "Cookies de marketing", "text": "Google Ads (y en el futuro Meta), para medir nuestras campañas. Solo se cargan si las aceptas." },
+        { "title": "Cómo cambiar tu decisión", "text": "Puedes cambiar o retirar tu consentimiento en cualquier momento desde el enlace «Configurar cookies» del pie de página." }
+      ]
+    },
+    "legalNotice": {
+      "metaTitle": "Aviso legal",
+      "title": "Aviso legal",
+      "sections": [
+        { "title": "Titular del sitio web", "text": "[PLACEHOLDER: nombre o razón social, NIF, domicilio y email. Pendiente de datos fiscales definitivos.]" },
+        { "title": "Objeto", "text": "Este sitio web informa sobre los servicios de Pilates Clásico ofrecidos en Palma de Mallorca y permite reservar y pagar una clase de prueba." },
+        { "title": "Propiedad intelectual", "text": "Los contenidos de esta web (textos, imágenes, marca) pertenecen a su titular. No está permitida su reproducción sin autorización." },
+        { "title": "Responsabilidad", "text": "El contenido de esta web tiene carácter informativo y no constituye consejo médico. Consulta con un profesional sanitario ante cualquier lesión o condición médica." }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Términos de contratación",
+      "title": "Términos de contratación y cancelación",
+      "sections": [
+        { "title": "Servicio", "text": "La compra online corresponde a una clase de prueba personalizada de Pilates Clásico por 30 € (impuestos incluidos cuando corresponda). El día y la hora se coordinan tras el pago, por WhatsApp." },
+        { "title": "Pago", "text": "El pago se procesa de forma segura a través de Stripe. No almacenamos datos de tarjeta." },
+        { "title": "Cambios y cancelaciones", "text": "[PENDIENTE DE APROBACIÓN — política propuesta: las cancelaciones o cambios deben comunicarse con al menos una hora de antelación; las cancelaciones con menor antelación podrán considerarse como sesión utilizada.]" },
+        { "title": "Derecho de desistimiento", "text": "[PLACEHOLDER: condiciones de desistimiento conforme a la normativa de consumo, pendiente de revisión legal.]" },
+        { "title": "Contacto", "text": "Para cualquier gestión sobre tu reserva, escríbenos por WhatsApp o al email de contacto." }
+      ]
+    }
+  }
+}

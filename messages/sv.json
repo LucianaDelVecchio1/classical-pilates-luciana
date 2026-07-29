@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "descriptor": "Studio för klassisk Pilates i Palma de Mallorca",
+    "description": "Personligt anpassade sessioner i klassisk Pilates vid havet i Palma de Mallorca. Boka din provklass för 30 €."
+  },
+  "a11y": {
+    "skipToContent": "Hoppa till innehållet"
+  },
+  "nav": {
+    "home": "Hem",
+    "luciana": "Luciana",
+    "method": "Metoden",
+    "studio": "Studion",
+    "sessions": "Sessioner",
+    "trial": "Provklass",
+    "faq": "Vanliga frågor",
+    "blog": "Blogg",
+    "contact": "Kontakt",
+    "trialCta": "Prova en klass — 30 €",
+    "homeAria": "Gå till startsidan",
+    "mainNavAria": "Huvudnavigering",
+    "openMenu": "Öppna menyn",
+    "closeMenu": "Stäng menyn",
+    "languageLabel": "Språk"
+  },
+  "mobileBar": {
+    "bookTrial": "Boka provklass"
+  },
+  "footer": {
+    "descriptor": "Studio för klassisk Pilates i Palma de Mallorca. Personligt anpassade sessioner vid havet.",
+    "closingQuote": "Havet påminner oss, i varje andetag, om att lugnet alltid bor i nuet.",
+    "explore": "Utforska",
+    "contact": "Kontakt",
+    "siteNavAria": "Sidfotsnavigering",
+    "privacy": "Integritet",
+    "cookies": "Cookies",
+    "legalNotice": "Juridisk information",
+    "terms": "Villkor",
+    "cookieSettings": "Cookie-inställningar"
+  },
+  "consent": {
+    "title": "Din integritet",
+    "body": "Vi använder nödvändiga egna cookies och, endast med ditt samtycke, cookies för analys och marknadsföring för att förstå hur webbplatsen används och mäta våra kampanjer. Du kan när som helst ändra ditt val under «Cookie-inställningar».",
+    "acceptAll": "Acceptera alla",
+    "rejectAll": "Avvisa alla",
+    "configure": "Anpassa",
+    "savePreferences": "Spara inställningar",
+    "necessaryLabel": "Nödvändiga",
+    "necessaryDesc": "krävs för att webbplatsen ska fungera. De kan inte stängas av.",
+    "analyticsLabel": "Analys",
+    "analyticsDesc": "hjälper oss att förstå hur webbplatsen används (Google Analytics 4).",
+    "marketingLabel": "Marknadsföring",
+    "marketingDesc": "mäter våra kampanjer i Google Ads och, i framtiden, Meta."
+  },
+  "whatsapp": {
+    "messages": {
+      "trial": "Hej Luciana, jag skulle vilja boka min provklass i klassisk Pilates för 30 €.",
+      "trial-purchased": "Hej Luciana, jag har just köpt min provklass i klassisk Pilates för 30 €. Jag skulle vilja komma överens om dag och tid. Min referens är: [ID].",
+      "pricing": "Hej Luciana, jag har besökt din webbplats och skulle vilja veta priserna för sessionerna i klassisk Pilates.",
+      "private": "Hej Luciana, jag är intresserad av de privata individuella sessionerna i klassisk Pilates. Kan du berätta mer?",
+      "duo": "Hej Luciana, vi är intresserade av duo-sessionerna i klassisk Pilates. Kan du berätta mer?",
+      "general": "Hej Luciana, jag har besökt din webbplats och skulle vilja få mer information om sessionerna i klassisk Pilates.",
+      "blog": "Hej Luciana, jag har läst en artikel på din blogg och skulle vilja veta mer om sessionerna i klassisk Pilates."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Klassisk Pilates vid havet i Palma de Mallorca",
+      "subtitle": "Personligt anpassade sessioner för att stärka kroppen, förbättra hållningen och röra dig med större medvetenhet.",
+      "ctaPrimary": "Prova en klass för 30 €",
+      "ctaSecondary": "Prata med Luciana",
+      "imageAlt": "Lucianas studio för klassisk Pilates, med naturligt ljus och havsutsikt"
+    },
+    "value": {
+      "eyebrow": "Ett rum med avsikt",
+      "title": "Den klassiska metoden, nära havet",
+      "items": [
+        { "title": "Klassisk metod", "text": "Ett arbete troget Joseph Pilates ursprungliga lära: ordning, precision och avsikt i varje rörelse." },
+        { "title": "Personlig uppmärksamhet", "text": "Varje session anpassas efter din historia, dina behov och var du befinner dig just nu. Aldrig en standardklass." },
+        { "title": "Specialiserad utrustning", "text": "Apparater från den klassiska metoden, till stor del Gratz, inspirerade av originaldesignerna." },
+        { "title": "Vid havet", "text": "Det naturliga ljuset och horisonten följer med i träningen och förstärker lugnet och närvaron." },
+        { "title": "Kropp, sinne och andning", "text": "En praktik som förenar rörelsen med andningen och uppmärksamheten på nuet." }
+      ]
+    },
+    "about": {
+      "eyebrow": "Om Luciana",
+      "title": "En lärare som fortfarande är elev",
+      "text": "Lucianas resa började för åtta år sedan genom massage och kroppsarbete, och förvandlades när hon upptäckte Pilates. Utbildad i Buenos Aires och i kontakt med den klassiska europeiska traditionen ser hon undervisningen som en form av tjänande.",
+      "cta": "Lär känna Luciana",
+      "imageAlt": "Porträtt av Luciana i sin studio"
+    },
+    "method": {
+      "eyebrow": "Metoden",
+      "title": "Vad är klassisk Pilates?",
+      "text": "Klassisk Pilates bevarar ordningen, principerna och apparaterna som Joseph Pilates utformade: koncentration, kontroll, centrum, flöde, precision och andning. Ett komplett system som organiserar kroppen från dess centrum ut mot extremiteterna.",
+      "cta": "Upptäck metoden"
+    },
+    "studio": {
+      "eyebrow": "Studion",
+      "title": "En plats där du lämnar bruset utanför",
+      "text": "Ett rum skapat med avsikt, vid havet: utsikten, horisonten och det naturliga ljuset följer med i varje session och förstärker en känsla av lugn och närvaro.",
+      "cta": "Besök studion",
+      "imageAlt": "Havsutsikt från studion"
+    },
+    "sessions": {
+      "eyebrow": "Sessioner",
+      "title": "Personligt anpassade sessioner, individuellt eller i duo",
+      "text": "Varje session utformas för dig: din historia, dina mål och din process. Du kan träna individuellt eller dela sessionen i duo med en annan person.",
+      "cta": "Fråga om alternativen via WhatsApp"
+    },
+    "benefits": {
+      "eyebrow": "Fördelar",
+      "title": "Vad träningen kan ge dig",
+      "items": [
+        "Styrka och rörlighet",
+        "Kroppsmedvetenhet",
+        "Hållning och organiserad rörelse",
+        "Koordination",
+        "Medveten andning",
+        "Känsla av balans och välbefinnande"
+      ]
+    },
+    "trial": {
+      "eyebrow": "Börja här",
+      "title": "Din första klass, för 30 €",
+      "text": "En personligt anpassad session för att lära känna dig, lyssna på din kropp och visa dig hur den klassiska metoden arbetar. Säker betalning online.",
+      "cta": "Boka min provklass",
+      "ctaSecondary": "Fråga via WhatsApp"
+    },
+    "faq": {
+      "eyebrow": "Undrar du något?",
+      "title": "Vanliga frågor",
+      "cta": "Se alla frågor"
+    },
+    "blog": {
+      "eyebrow": "Blogg",
+      "title": "Senaste artiklarna",
+      "cta": "Se alla artiklar"
+    },
+    "closing": {
+      "quote": "Havet påminner oss, i varje andetag, om att lugnet alltid bor i nuet.",
+      "cta": "Prova en klass för 30 €",
+      "ctaSecondary": "Prata med Luciana"
+    }
+  },
+  "luciana": {
+    "metaTitle": "Om Luciana",
+    "metaDescription": "Lucianas resa: från massage och kroppsarbete till klassisk Pilates, mellan Buenos Aires, Portugal och Palma de Mallorca.",
+    "title": "Om Luciana",
+    "intro": "En berättelse om lyhördhet, lärande och tjänande genom rörelse.",
+    "imageAlt": "Porträtt av Luciana",
+    "sessionImageAlt": "Luciana leder en session i klassisk Pilates",
+    "body": [
+      "Lucianas relation till kroppen började för ungefär åtta år sedan, genom Tui Na-massage och shiatsu. Den tiden lärde henne att lyssna med händerna och att förstå att varje kropp bär på sin egen historia.",
+      "2019 mötte hon en person som lärde henne Pilates och öppnade en väg som skulle förvandla hennes relation till kroppen och till sig själv. Det som började som en träningsform blev snart ett kall.",
+      "Hon fortsatte sin utbildning genom kurser och workshops. I Buenos Aires utbildade hon sig hos Federico Randazzo, från skolan IRPA, som följde henne under flera år i hennes utbildning och yrkeserfarenhet i Argentina.",
+      "2025 mötte hon Miguel Silva, instruktör vid skolan UNO Pilates i Portugal. Det mötet fördjupade hennes förståelse av kroppen och gav större medvetenhet och mening åt hela hennes tidigare erfarenhet.",
+      "För Luciana är Pilates ett sätt att förbinda kroppen från dess centrum ut mot extremiteterna och att hitta en inre organisation som förvandlar hur vi rör oss, hur vi andas och hur vi bebor vår kropp.",
+      "Hon ser undervisningen som en form av tjänande: att följa varje person i att upptäcka sin kropp och utveckla en mer medveten och vänlig relation till rörelsen. Och samtidigt betraktar hon sig fortfarande som elev."
+    ],
+    "cta": "Boka en provklass",
+    "ctaSecondary": "Skriv till Luciana"
+  },
+  "method": {
+    "metaTitle": "Den klassiska Pilatesmetoden",
+    "metaDescription": "Vad är klassisk Pilates: principerna, ordningen och Joseph Pilates originalapparater, förklarat på ett lättillgängligt sätt.",
+    "title": "Den klassiska Pilatesmetoden",
+    "intro": "Ett komplett rörelsesystem, skapat av Joseph Pilates, som förs vidare troget dess ursprungliga ordning och principer.",
+    "imageAlt": "Detalj av en rörelse i klassisk Pilates",
+    "sections": [
+      {
+        "title": "En metod med ursprung",
+        "text": "Joseph Pilates utvecklade sin metod — som han själv kallade Contrology — under första halvan av 1900-talet. Det klassiska förhållningssättet bevarar repertoaren, övningarnas ordning och apparaterna precis som de en gång utformades, förda vidare från lärare till elev sedan dess."
+      },
+      {
+        "title": "Principerna",
+        "text": "Koncentration, kontroll, centrum, flöde, precision och andning. Sex principer som förvandlar en serie övningar till en praktik i full närvaro: varje rörelse har en avsikt och ett sätt att utföras."
+      },
+      {
+        "title": "Från centrum ut mot extremiteterna",
+        "text": "Varje rörelse föds i kroppens centrum. När det centrumet stärks och organiseras rör sig extremiteterna friare, kroppen hittar en bättre hållning och andningen följer med på ett naturligt sätt."
+      },
+      {
+        "title": "Apparaterna",
+        "text": "Metoden utövas på apparater som Joseph Pilates själv utformade, som Reformer och Barrel, som guidar och stödjer kroppen med fjädrar och precisa ytor. I studion arbetar vi med utrustning från den klassiska metoden, till stor del av märket Gratz, inspirerat av originaldesignerna."
+      },
+      {
+        "title": "En praktik för alla",
+        "text": "Du behöver ingen tidigare erfarenhet eller särskild fysisk form: metoden anpassas efter varje person, och den personliga uppmärksamheten låter dig utvecklas tryggt och i din egen takt."
+      }
+    ],
+    "cta": "Prova metoden för 30 €",
+    "ctaSecondary": "Fråga via WhatsApp"
+  },
+  "studio": {
+    "metaTitle": "Studion",
+    "metaDescription": "En studio för klassisk Pilates vid havet i Palma de Mallorca: naturligt ljus, lugn och utrustning från den klassiska metoden.",
+    "title": "Studion",
+    "intro": "Ett rum skapat med avsikt, vid havet, där du kan ägna en stund åt ditt eget välbefinnande.",
+    "imageAlt": "Havsutsikt från studion",
+    "reformerAlt": "Reformer för klassisk Pilates i studion",
+    "barrelAlt": "Barrel för klassisk Pilates i studion",
+    "atmosphereAlt": "Studions atmosfär med naturligt ljus",
+    "body": [
+      "Studion är ett rum skapat med avsikt, tänkt för att var och en ska kunna lämna vardagens brus utanför och ägna en stund åt sitt eget välbefinnande.",
+      "Utsikten, horisonten, det naturliga ljuset och närheten till havet följer med i träningen och förstärker en känsla av lugn och närvaro som är en lika viktig del av arbetet som själva övningarna.",
+      "Vi arbetar med utrustning från den klassiska Pilatesmetoden. En stor del kommer från Gratz, referensmärket inspirerat av Joseph Pilates originaldesigner och importerat från USA. Studion har komplett utrustning för metoden, inklusive Reformer och Barrel.",
+      "Sessionerna är personligt anpassade efter varje persons historia, behov och process."
+    ],
+    "cta": "Boka en provklass",
+    "ctaSecondary": "Fråga via WhatsApp"
+  },
+  "sessions": {
+    "metaTitle": "Personligt anpassade sessioner",
+    "metaDescription": "Sessioner i klassisk Pilates, individuellt eller i duo, i Palma de Mallorca — alltid personligt anpassade. Fråga om alternativ och priser via WhatsApp.",
+    "title": "Personligt anpassade sessioner",
+    "intro": "Varje session utformas för dig. Inga stora grupper, inga standardprogram.",
+    "private": {
+      "title": "Individuell session",
+      "text": "All uppmärksamhet riktad mot dig: ett djupt och skräddarsytt arbete, perfekt för att komma igång, finslipa tekniken eller följa en särskild process i kroppen."
+    },
+    "duo": {
+      "title": "Duo-session",
+      "text": "Dela sessionen med din partner, en familjemedlem eller en vän. Uppmärksamheten förblir personlig: varje kropp arbetar utifrån sina egna behov."
+    },
+    "durationNote": "Sessionens exakta längd bekräftas vid bokning.",
+    "pricingNote": "Priser och klippkort delas privat. Skriv till oss via WhatsApp så skickar vi all information.",
+    "ctaPrivate": "Fråga om individuella sessioner",
+    "ctaDuo": "Fråga om duo-sessioner",
+    "ctaPricing": "Fråga om priser via WhatsApp",
+    "trialTitle": "Första gången i studion?",
+    "trialText": "Börja med en personligt anpassad provklass för 30 €.",
+    "trialCta": "Boka min provklass",
+    "imageAlt": "Personligt anpassad session i klassisk Pilates"
+  },
+  "trial": {
+    "metaTitle": "Provklass — 30 €",
+    "metaDescription": "Boka din personligt anpassade provklass i klassisk Pilates i Palma de Mallorca för 30 €. Säker betalning online och bokning av tid via WhatsApp.",
+    "title": "Din provklass",
+    "price": "30 €",
+    "intro": "En personligt anpassad session för att lära känna dig, lyssna på din kropp och visa dig hur klassisk Pilates arbetar.",
+    "includesTitle": "Vad som ingår",
+    "includes": [
+      "Helt personligt anpassad provsession, i enrum med Luciana",
+      "Inledande bedömning av din hållning, rörlighet och dina mål",
+      "Introduktion till den klassiska metodens apparater",
+      "En ärlig rekommendation om hur du kan fortsätta, om du vill"
+    ],
+    "forWhoTitle": "Vem den passar",
+    "forWho": [
+      "Dig som aldrig har tränat Pilates och vill börja på rätt sätt",
+      "Dig som redan tränar och vill lära känna det klassiska förhållningssättet",
+      "Dig som söker ett medvetet kroppsarbete med personlig vägledning"
+    ],
+    "durationNote": "Den exakta längden bekräftas vid bokning.",
+    "paymentTitle": "Säker betalning",
+    "paymentText": "Betalningen sker online via Stripe, med kort, krypterat och säkert. Vi sparar inga kortuppgifter. Efter betalningen kommer vi överens om dag och tid via WhatsApp.",
+    "cta": "Boka min provklass",
+    "ctaSecondary": "Fråga via WhatsApp",
+    "checkoutError": "Betalningen kunde inte startas. Försök igen eller skriv till oss via WhatsApp.",
+    "checkoutLoading": "Förbereder den säkra betalningen…",
+    "imageAlt": "Session i klassisk Pilates i studion",
+    "scheduleTitle": "Boka tid",
+    "scheduleText": "Efter betalningen kommer vi överens om dag och tid direkt via WhatsApp. Snart kommer du att kunna välja din tid online här."
+  },
+  "faq": {
+    "metaTitle": "Vanliga frågor",
+    "metaDescription": "Svar på de vanligaste frågorna om klassisk Pilates, provklassen, sessionerna och studion i Palma de Mallorca.",
+    "title": "Vanliga frågor",
+    "intro": "Allt du behöver veta inför din första session.",
+    "items": [
+      { "question": "Vad är klassisk Pilates?", "answer": "Det är den ursprungliga metoden skapad av Joseph Pilates, vidareförd med sin repertoar, sin ordning och sina apparater precis som de en gång utformades. Den arbetar med kroppen från centrum ut mot extremiteterna utifrån sex principer: koncentration, kontroll, centrum, flöde, precision och andning." },
+      { "question": "Behöver jag tidigare erfarenhet?", "answer": "Nej. Sessionerna är personligt anpassade och utgår helt från din utgångspunkt. Provklassen finns just för att lära känna din kropp och var du befinner dig." },
+      { "question": "Är provklassen personligt anpassad?", "answer": "Ja. Det är en individuell session med Luciana, där vi bedömer din hållning, din rörlighet och dina mål, och där du får uppleva metoden med de klassiska apparaterna." },
+      { "question": "Vilka kläder ska jag ha på mig?", "answer": "Bekväma, åtsittande kläder som gör rörelsen synlig, samt strumpor. Du behöver inga träningsskor: man tränar barfota eller i strumpor." },
+      { "question": "Var ligger studion?", "answer": "Studion ligger i Palma de Mallorca, vid havet. När du bokar skickar vi den exakta adressen och vägbeskrivning." },
+      { "question": "Är sessionerna individuella eller i duo?", "answer": "Både och. Du kan träna individuellt, med all uppmärksamhet riktad mot dig, eller i duo med en annan person — arbetet förblir personligt anpassat för varje kropp." },
+      { "question": "Hur lång är en session?", "answer": "Den exakta längden bekräftas vid bokning." },
+      { "question": "Hur får jag veta priserna?", "answer": "Provklassen kostar 30 €. Övriga alternativ och klippkort delas privat: skriv till oss via WhatsApp så skickar vi all information." },
+      { "question": "Hur bokar jag min provklass?", "answer": "Via provklassens sida: betalningen sker säkert online och därefter kommer vi överens om dag och tid via WhatsApp." },
+      { "question": "Hur fungerar betalningen?", "answer": "Onlinebetalningen behandlas av Stripe, krypterat och säkert, med kort. Vi sparar inga kortuppgifter." },
+      { "question": "Kan jag ändra eller avboka en bokning?", "answer": "Ja, genom att kontakta oss via WhatsApp i god tid. De exakta villkoren för ändringar och avbokningar bekräftas vid bokning." },
+      { "question": "Vilka apparater används?", "answer": "Vi arbetar med utrustning från den klassiska metoden, till stor del av märket Gratz, inklusive Reformer och Barrel, samt golvarbete (Mat)." },
+      { "question": "Passar det om jag har en skada eller ett medicinskt tillstånd?", "answer": "Det personligt anpassade arbetet gör det möjligt att anpassa träningen till många situationer, men det ersätter inte sjukvård. Om du har en skada eller ett medicinskt tillstånd, rådgör först med sjukvårdspersonal och berätta det för oss innan du börjar, så att vi kan anpassa sessionen på ett tryggt sätt." },
+      { "question": "På vilka språk erbjuds sessionerna?", "answer": "Skriv till oss via WhatsApp så bekräftar vi utifrån ditt önskade språk." }
+    ]
+  },
+  "contact": {
+    "metaTitle": "Kontakt",
+    "metaDescription": "Skriv till Luciana för att fråga om sessioner i klassisk Pilates i Palma de Mallorca: WhatsApp, e-post eller kontaktformulär.",
+    "title": "Kontakt",
+    "intro": "Skriv till oss via WhatsApp för snabbast svar, eller använd formuläret så återkommer vi så snart vi kan.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Det snabbaste sättet att nå Luciana.",
+    "whatsappCta": "Öppna WhatsApp",
+    "form": {
+      "title": "Kontaktformulär",
+      "name": "Namn",
+      "contactField": "E-post eller telefon",
+      "preference": "Hur vill du bli kontaktad?",
+      "preferenceEmail": "E-post",
+      "preferencePhone": "Telefon / WhatsApp",
+      "message": "Meddelande",
+      "consent": "Jag har läst och godkänner integritetspolicyn.",
+      "submit": "Skicka meddelande",
+      "sending": "Skickar…",
+      "success": "Tack för ditt meddelande. Vi återkommer så snart vi kan.",
+      "error": "Meddelandet kunde inte skickas. Försök igen eller skriv till oss via WhatsApp.",
+      "validationName": "Skriv ditt namn.",
+      "validationContact": "Ange en e-postadress eller ett telefonnummer så att vi kan svara dig.",
+      "validationMessage": "Skriv ditt meddelande.",
+      "validationConsent": "Du måste godkänna integritetspolicyn."
+    }
+  },
+  "blog": {
+    "metaTitle": "Blogg",
+    "metaDescription": "Artiklar om klassisk Pilates, andning, kroppsmedvetenhet och välbefinnande vid havet, från Palma de Mallorca.",
+    "title": "Blogg",
+    "intro": "Anteckningar om den klassiska metoden, andningen och den medvetna rörelsen.",
+    "readingTime": "{minutes} min läsning",
+    "updatedOn": "Uppdaterad {date}",
+    "publishedOn": "Publicerad {date}",
+    "byAuthor": "Av {author}",
+    "backToBlog": "Tillbaka till bloggen",
+    "tocTitle": "I den här artikeln",
+    "relatedCta": "Vill du uppleva metoden?",
+    "relatedCtaButton": "Boka din provklass — 30 €",
+    "relatedCtaWhatsApp": "Fråga via WhatsApp",
+    "categoriesTitle": "Kategorier",
+    "emptyState": "Snart publicerar vi nya artiklar."
+  },
+  "payment": {
+    "successMetaTitle": "Betalning bekräftad",
+    "successTitle": "Tack! Din provklass är bekräftad",
+    "successText": "Vi har tagit emot din betalning på 30 €. Här är din bokningsreferens:",
+    "successNoRef": "Vi har tagit emot din betalning på 30 €.",
+    "successNext": "Nu återstår bara att komma överens om dag och tid. Skriv till oss via WhatsApp med din referens så ordnar vi det.",
+    "successCta": "Boka tid via WhatsApp",
+    "cancelMetaTitle": "Betalning avbruten",
+    "cancelTitle": "Betalning avbruten",
+    "cancelText": "Ingen debitering har gjorts. Du kan försöka igen när du vill, eller skriva till oss via WhatsApp om något gick fel med betalningen.",
+    "cancelCta": "Tillbaka till provklassen",
+    "cancelCtaSecondary": "Fråga via WhatsApp"
+  },
+  "ads": {
+    "metaTitle": "Provklass i klassisk Pilates i Palma — 30 €",
+    "metaDescription": "Prova klassisk Pilates i en studio vid havet i Palma de Mallorca. Personligt anpassad provklass för 30 €, med säker betalning online.",
+    "title": "Provklass i klassisk Pilates i Palma — 30 €",
+    "subtitle": "En personligt anpassad session, i enrum med din instruktör, i en studio vid havet.",
+    "cta": "Boka min provklass",
+    "ctaSecondary": "Fråga via WhatsApp",
+    "bullets": [
+      "100 % personligt anpassad session, inte en gruppklass",
+      "Utrustning från den klassiska metoden (Gratz, Reformer, Barrel)",
+      "Studio med naturligt ljus och havsutsikt i Palma",
+      "Säker betalning online med Stripe; vi bokar tid via WhatsApp"
+    ],
+    "trustTitle": "Utan förpliktelser",
+    "trustText": "Provklassen förbinder dig inte till något: det är en komplett session för att lära känna metoden och bestämma dig i lugn och ro."
+  },
+  "notFound": {
+    "metaTitle": "Sidan hittades inte",
+    "title": "Den här sidan finns inte",
+    "text": "Länken kan ha ändrats. Andas: härifrån kan du hitta tillbaka till startsidan.",
+    "cta": "Tillbaka till startsidan"
+  },
+  "legal": {
+    "reviewNotice": "Provisoriskt dokument framtaget som mall. Ska granskas av en jurist före lansering.",
+    "privacy": {
+      "metaTitle": "Integritetspolicy",
+      "title": "Integritetspolicy",
+      "sections": [
+        { "title": "Personuppgiftsansvarig", "text": "[PLACEHOLDER: nombre o razón social, NIF, dirección y email de contacto del responsable. Pendiente de datos fiscales definitivos.]" },
+        { "title": "Uppgifter vi behandlar", "text": "De uppgifter du lämnar via kontaktformuläret (namn, e-post eller telefon samt meddelande), de uppgifter som krävs för att behandla betalningen av provklassen (hanteras av Stripe; vi lagrar inga kortuppgifter) och, endast med ditt samtycke, analysdata om hur webbplatsen används." },
+        { "title": "Ändamål och rättslig grund", "text": "Att besvara dina förfrågningar (berättigat intresse / åtgärder inför avtal), hantera bokningen och betalningen av provklassen (fullgörande av avtal) och analysera hur webbplatsen används (samtycke)." },
+        { "title": "Mottagare", "text": "Stripe (betalningshantering), webbhotellsleverantören och, med ditt samtycke, Google (analys och annonsering). Vi säljer inte och lämnar inte ut dina uppgifter till tredje part i kommersiellt syfte." },
+        { "title": "Lagringstid", "text": "Vi sparar uppgifterna så länge det behövs för att hantera din förfrågan eller din bokning, samt under de perioder som skattelagstiftningen kräver när det är tillämpligt." },
+        { "title": "Dina rättigheter", "text": "Du kan utöva dina rättigheter till tillgång, rättelse, radering, invändning, begränsning och dataportabilitet genom att skriva till kontaktadressen. Du kan också lämna klagomål till den spanska dataskyddsmyndigheten (aepd.es)." }
+      ]
+    },
+    "cookiesPage": {
+      "metaTitle": "Cookiepolicy",
+      "title": "Cookiepolicy",
+      "sections": [
+        { "title": "Vad är cookies", "text": "Små filer som lagras på din enhet när du surfar. Vi använder nödvändiga egna cookies och, endast med ditt samtycke, tredjepartscookies för analys och marknadsföring." },
+        { "title": "Nödvändiga cookies", "text": "Krävs för att webbplatsen ska fungera (till exempel för att komma ihåg ditt cookieval). De kräver inget samtycke." },
+        { "title": "Analyscookies", "text": "Google Analytics 4, via Google Tag Manager. De laddas endast om du accepterar dem. De hjälper oss att förstå hur webbplatsen används." },
+        { "title": "Marknadsföringscookies", "text": "Google Ads (och i framtiden Meta), för att mäta våra kampanjer. De laddas endast om du accepterar dem." },
+        { "title": "Så ändrar du ditt val", "text": "Du kan när som helst ändra eller återkalla ditt samtycke via länken «Cookie-inställningar» i sidfoten." }
+      ]
+    },
+    "legalNotice": {
+      "metaTitle": "Juridisk information",
+      "title": "Juridisk information",
+      "sections": [
+        { "title": "Webbplatsens innehavare", "text": "[PLACEHOLDER: nombre o razón social, NIF, domicilio y email. Pendiente de datos fiscales definitivos.]" },
+        { "title": "Syfte", "text": "Denna webbplats informerar om de tjänster inom klassisk Pilates som erbjuds i Palma de Mallorca och gör det möjligt att boka och betala en provklass." },
+        { "title": "Immateriella rättigheter", "text": "Innehållet på denna webbplats (texter, bilder, varumärke) tillhör dess innehavare. Återgivning utan tillstånd är inte tillåten." },
+        { "title": "Ansvar", "text": "Innehållet på denna webbplats är av informativ karaktär och utgör inte medicinsk rådgivning. Rådgör med sjukvårdspersonal vid skada eller medicinskt tillstånd." }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Köpvillkor",
+      "title": "Köp- och avbokningsvillkor",
+      "sections": [
+        { "title": "Tjänst", "text": "Onlineköpet avser en personligt anpassad provklass i klassisk Pilates för 30 € (inklusive skatter när det är tillämpligt). Dag och tid bestäms efter betalningen, via WhatsApp." },
+        { "title": "Betalning", "text": "Betalningen behandlas säkert via Stripe. Vi lagrar inga kortuppgifter." },
+        { "title": "Ändringar och avbokningar", "text": "[PENDIENTE DE APROBACIÓN — política propuesta: las cancelaciones o cambios deben comunicarse con al menos una hora de antelación; las cancelaciones con menor antelación podrán considerarse como sesión utilizada.]" },
+        { "title": "Ångerrätt", "text": "[PLACEHOLDER: condiciones de desistimiento conforme a la normativa de consumo, pendiente de revisión legal.]" },
+        { "title": "Kontakt", "text": "För alla frågor om din bokning, skriv till oss via WhatsApp eller till kontaktadressen." }
+      ]
+    }
+  }
+}

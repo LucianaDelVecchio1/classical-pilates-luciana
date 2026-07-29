@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/*
+ * Paleta mediterránea — decidida 2026-07-29 junto con el wordmark "Horizonte".
+ * Marfil cálido, arena, piedra, azul grisáceo del Mediterráneo, oliva apagado, carbón suave.
+ */
+@theme {
+  --color-ivory: #f6f2ea;
+  --color-ivory-soft: #fdfbf6;
+  --color-sand: #e5dbc9;
+  --color-stone: #cdc3b2;
+  --color-sea: #5c7382;
+  --color-sea-deep: #3e5361;
+  --color-olive: #7c7f5f;
+  --color-char: #32352f;
+  --color-char-soft: #5a5d54;
+
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-karla), Karla, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--color-ivory);
+  color: var(--color-char);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+/* Foco visible y consistente en toda la web (WCAG 2.2) */
+:focus-visible {
+  outline: 2px solid var(--color-sea-deep);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--color-sand);
+}
+
+/* Aparición suave de secciones; desactivada si el usuario reduce el movimiento */
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in-up {
+    animation: fadeInUp 0.7s ease-out both;
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

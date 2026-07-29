@@ -1,0 +1,414 @@
+{
+  "meta": {
+    "descriptor": "Studio für Klassisches Pilates in Palma de Mallorca",
+    "description": "Personalisierte Sessions in Klassischem Pilates direkt am Meer in Palma de Mallorca. Buche deine Probestunde für 30 €."
+  },
+  "a11y": {
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "nav": {
+    "home": "Start",
+    "luciana": "Luciana",
+    "method": "Die Methode",
+    "studio": "Das Studio",
+    "sessions": "Sessions",
+    "trial": "Probestunde",
+    "faq": "Häufige Fragen",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "trialCta": "Probestunde — 30 €",
+    "homeAria": "Zur Startseite",
+    "mainNavAria": "Hauptnavigation",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "languageLabel": "Sprache"
+  },
+  "mobileBar": {
+    "bookTrial": "Probestunde buchen"
+  },
+  "footer": {
+    "descriptor": "Studio für Klassisches Pilates in Palma de Mallorca. Personalisierte Sessions direkt am Meer.",
+    "closingQuote": "Das Meer erinnert uns mit jedem Atemzug daran, dass die Ruhe immer im gegenwärtigen Moment wohnt.",
+    "explore": "Entdecken",
+    "contact": "Kontakt",
+    "siteNavAria": "Fußzeilennavigation",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies",
+    "legalNotice": "Impressum",
+    "terms": "AGB",
+    "cookieSettings": "Cookies einstellen"
+  },
+  "consent": {
+    "title": "Deine Privatsphäre",
+    "body": "Wir verwenden notwendige eigene Cookies und, nur mit deiner Zustimmung, Analyse- und Marketing-Cookies, um zu verstehen, wie die Website genutzt wird, und unsere Kampagnen zu messen. Du kannst deine Entscheidung jederzeit unter „Cookies einstellen“ ändern.",
+    "acceptAll": "Alle akzeptieren",
+    "rejectAll": "Alle ablehnen",
+    "configure": "Einstellen",
+    "savePreferences": "Einstellungen speichern",
+    "necessaryLabel": "Notwendig",
+    "necessaryDesc": "unverzichtbar, damit die Website funktioniert. Sie können nicht deaktiviert werden.",
+    "analyticsLabel": "Analyse",
+    "analyticsDesc": "helfen uns zu verstehen, wie die Website genutzt wird (Google Analytics 4).",
+    "marketingLabel": "Marketing",
+    "marketingDesc": "messen unsere Kampagnen bei Google Ads und künftig Meta."
+  },
+  "whatsapp": {
+    "messages": {
+      "trial": "Hallo Luciana, ich würde gerne meine Probestunde in Klassischem Pilates für 30 € buchen.",
+      "trial-purchased": "Hallo Luciana, ich habe gerade meine Probestunde in Klassischem Pilates für 30 € gekauft. Ich würde gerne Tag und Uhrzeit abstimmen. Meine Referenz lautet: [ID].",
+      "pricing": "Hallo Luciana, ich habe deine Website besucht und würde gerne die Preise für die Sessions in Klassischem Pilates erfahren.",
+      "private": "Hallo Luciana, ich interessiere mich für private Einzelsessions in Klassischem Pilates. Kannst du mir mehr Informationen geben?",
+      "duo": "Hallo Luciana, wir interessieren uns für Duo-Sessions in Klassischem Pilates. Kannst du uns mehr Informationen geben?",
+      "general": "Hallo Luciana, ich habe deine Website besucht und würde gerne Informationen über die Sessions in Klassischem Pilates erhalten.",
+      "blog": "Hallo Luciana, ich habe einen Artikel in deinem Blog gelesen und würde gerne mehr über die Sessions in Klassischem Pilates erfahren."
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Klassisches Pilates am Meer in Palma de Mallorca",
+      "subtitle": "Personalisierte Sessions, um den Körper zu kräftigen, die Haltung zu verbessern und dich bewusster zu bewegen.",
+      "ctaPrimary": "Probestunde für 30 €",
+      "ctaSecondary": "Mit Luciana sprechen",
+      "imageAlt": "Lucianas Studio für Klassisches Pilates, mit natürlichem Licht und Blick aufs Meer"
+    },
+    "value": {
+      "eyebrow": "Ein Ort mit Intention",
+      "title": "Die klassische Methode, nah am Meer",
+      "items": [
+        { "title": "Klassische Methode", "text": "Eine Arbeit, die der ursprünglichen Lehre von Joseph Pilates treu bleibt: Ordnung, Präzision und Sinn in jeder Bewegung." },
+        { "title": "Persönliche Betreuung", "text": "Jede Session passt sich deiner Geschichte, deinen Bedürfnissen und deinem Moment an. Nie eine Klasse von der Stange." },
+        { "title": "Spezialisierte Ausstattung", "text": "Geräte der klassischen Methode, größtenteils von Gratz, inspiriert von den Originalentwürfen." },
+        { "title": "Direkt am Meer", "text": "Natürliches Licht und der Horizont begleiten die Praxis und verstärken Ruhe und Präsenz." },
+        { "title": "Körper, Geist und Atmung", "text": "Eine Praxis, die Bewegung mit der Atmung und der Aufmerksamkeit für den gegenwärtigen Moment verbindet." }
+      ]
+    },
+    "about": {
+      "eyebrow": "Über Luciana",
+      "title": "Eine Lehrerin, die Lernende bleibt",
+      "text": "Lucianas Weg begann vor acht Jahren mit Massage und Körperarbeit und veränderte sich, als sie das Pilates entdeckte. Ausgebildet in Buenos Aires und im Austausch mit der klassischen europäischen Tradition versteht sie das Unterrichten als eine Form des Dienens.",
+      "cta": "Luciana kennenlernen",
+      "imageAlt": "Porträt von Luciana in ihrem Studio"
+    },
+    "method": {
+      "eyebrow": "Die Methode",
+      "title": "Was ist Klassisches Pilates?",
+      "text": "Das Klassische Pilates bewahrt die Reihenfolge, die Prinzipien und die Geräte, die Joseph Pilates entworfen hat: Konzentration, Kontrolle, Zentrum, Fluss, Präzision und Atmung. Ein vollständiges System, das den Körper von seiner Mitte aus bis in die Gliedmaßen organisiert.",
+      "cta": "Die Methode entdecken"
+    },
+    "studio": {
+      "eyebrow": "Das Studio",
+      "title": "Ein Ort, um den Lärm draußen zu lassen",
+      "text": "Ein mit Intention geschaffener Raum direkt am Meer: Die Aussicht, der Horizont und das natürliche Licht begleiten jede Session und verstärken ein Gefühl von Ruhe und Präsenz.",
+      "cta": "Das Studio besuchen",
+      "imageAlt": "Meerblick vom Studio aus"
+    },
+    "sessions": {
+      "eyebrow": "Sessions",
+      "title": "Personalisierte Sessions, einzeln oder im Duo",
+      "text": "Jede Session wird für dich gestaltet: deine Geschichte, deine Ziele und dein Prozess. Du kannst in einer Einzelsession üben oder sie im Duo mit einer anderen Person teilen.",
+      "cta": "Optionen per WhatsApp erfragen"
+    },
+    "benefits": {
+      "eyebrow": "Vorteile",
+      "title": "Was dir die Praxis geben kann",
+      "items": [
+        "Kraft und Beweglichkeit",
+        "Körperbewusstsein",
+        "Haltung und Bewegungsorganisation",
+        "Koordination",
+        "Bewusste Atmung",
+        "Ein Gefühl von Balance und Wohlbefinden"
+      ]
+    },
+    "trial": {
+      "eyebrow": "Starte hier",
+      "title": "Deine erste Stunde für 30 €",
+      "text": "Eine personalisierte Session, um dich kennenzulernen, deinem Körper zuzuhören und dir zu zeigen, wie die klassische Methode arbeitet. Sichere Online-Zahlung.",
+      "cta": "Meine Probestunde buchen",
+      "ctaSecondary": "Per WhatsApp anfragen"
+    },
+    "faq": {
+      "eyebrow": "Häufige Fragen",
+      "title": "Häufige Fragen",
+      "cta": "Alle Fragen ansehen"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Aktuelle Artikel",
+      "cta": "Alle Artikel ansehen"
+    },
+    "closing": {
+      "quote": "Das Meer erinnert uns mit jedem Atemzug daran, dass die Ruhe immer im gegenwärtigen Moment wohnt.",
+      "cta": "Probestunde für 30 €",
+      "ctaSecondary": "Mit Luciana sprechen"
+    }
+  },
+  "luciana": {
+    "metaTitle": "Über Luciana",
+    "metaDescription": "Lucianas Weg: von Massage und Körperarbeit zum Klassischen Pilates, zwischen Buenos Aires, Portugal und Palma de Mallorca.",
+    "title": "Über Luciana",
+    "intro": "Eine Geschichte des Zuhörens, des Lernens und des Dienens durch Bewegung.",
+    "imageAlt": "Porträt von Luciana",
+    "sessionImageAlt": "Luciana begleitet eine Session in Klassischem Pilates",
+    "body": [
+      "Lucianas Beziehung zum Körper begann vor etwa acht Jahren mit Tui-Na-Massage und Shiatsu. Diese Zeit lehrte sie, mit den Händen zuzuhören und zu verstehen, dass jeder Körper seine eigene Geschichte in sich trägt.",
+      "2019 lernte sie eine Person kennen, die ihr Pilates beibrachte und ihr einen Weg eröffnete, der ihre Beziehung zum Körper und zu sich selbst verwandeln sollte. Was als Praxis begann, wurde bald zur Berufung.",
+      "Sie setzte ihre Ausbildung durch Kurse und Workshops fort. In Buenos Aires lernte sie bei Federico Randazzo von der Schule IRPA, der sie mehrere Jahre lang in ihrer Ausbildung und ihrer beruflichen Erfahrung in Argentinien begleitete.",
+      "2025 lernte sie Miguel Silva kennen, Instructor der Schule UNO Pilates in Portugal. Diese Begegnung erweiterte ihr Verständnis des Körpers und gab ihrer gesamten bisherigen Erfahrung mehr Bewusstsein und Sinn.",
+      "Für Luciana ist Pilates eine Art, den Körper von seiner Mitte aus bis in die Gliedmaßen zu verbinden und eine innere Organisation zu finden, die verändert, wie wir uns bewegen, wie wir atmen und wie wir unseren Körper bewohnen.",
+      "Sie versteht das Unterrichten als eine Form des Dienens: jeden Menschen dabei zu begleiten, den eigenen Körper zu entdecken und eine bewusstere, freundlichere Beziehung zur Bewegung zu entwickeln. Und zugleich betrachtet sie sich weiterhin als Lernende."
+    ],
+    "cta": "Probestunde buchen",
+    "ctaSecondary": "Luciana schreiben"
+  },
+  "method": {
+    "metaTitle": "Die Klassische Pilates-Methode",
+    "metaDescription": "Was ist Klassisches Pilates: die Prinzipien, die Reihenfolge und die Originalgeräte von Joseph Pilates, verständlich erklärt.",
+    "title": "Die Klassische Pilates-Methode",
+    "intro": "Ein vollständiges Bewegungssystem, geschaffen von Joseph Pilates, das treu zu seiner Reihenfolge und seinen ursprünglichen Prinzipien weitergegeben wird.",
+    "imageAlt": "Detail einer Bewegung des Klassischen Pilates",
+    "sections": [
+      {
+        "title": "Eine Methode mit Ursprung",
+        "text": "Joseph Pilates entwickelte seine Methode — die er Contrology nannte — in der ersten Hälfte des 20. Jahrhunderts. Der klassische Ansatz bewahrt das Repertoire, die Reihenfolge der Übungen und die Geräte so, wie sie konzipiert wurden — seitdem von Lehrer zu Schüler weitergegeben."
+      },
+      {
+        "title": "Die Prinzipien",
+        "text": "Konzentration, Kontrolle, Zentrum, Fluss, Präzision und Atmung. Sechs Prinzipien, die eine Abfolge von Übungen in eine Praxis der vollen Aufmerksamkeit verwandeln: Jede Bewegung hat einen Sinn und eine bestimmte Art, ausgeführt zu werden."
+      },
+      {
+        "title": "Von der Mitte bis in die Gliedmaßen",
+        "text": "Jede Bewegung entsteht aus der Körpermitte. Wird diese Mitte gekräftigt und organisiert, bewegen sich die Gliedmaßen freier, der Körper findet eine bessere Ausrichtung und die Atmung begleitet ganz natürlich."
+      },
+      {
+        "title": "Die Geräte",
+        "text": "Die Methode wird an Geräten praktiziert, die Joseph Pilates selbst entworfen hat, wie dem Reformer oder dem Barrel, die den Körper mit Federn und präzisen Flächen führen und begleiten. Im Studio arbeiten wir mit Ausstattung der klassischen Methode, größtenteils von der Marke Gratz, inspiriert von den Originalentwürfen."
+      },
+      {
+        "title": "Eine Praxis für alle",
+        "text": "Du brauchst weder Vorerfahrung noch eine bestimmte körperliche Verfassung: Die Methode passt sich jedem Menschen an, und die persönliche Betreuung ermöglicht es, sicher und in deinem eigenen Tempo voranzukommen."
+      }
+    ],
+    "cta": "Probiere die Methode für 30 €",
+    "ctaSecondary": "Per WhatsApp fragen"
+  },
+  "studio": {
+    "metaTitle": "Das Studio",
+    "metaDescription": "Ein Studio für Klassisches Pilates direkt am Meer in Palma de Mallorca: natürliches Licht, Ruhe und Ausstattung der klassischen Methode.",
+    "title": "Das Studio",
+    "intro": "Ein mit Intention geschaffener Raum, direkt am Meer, um dir Zeit für dein eigenes Wohlbefinden zu nehmen.",
+    "imageAlt": "Meerblick vom Studio aus",
+    "reformerAlt": "Reformer für Klassisches Pilates im Studio",
+    "barrelAlt": "Barrel für Klassisches Pilates im Studio",
+    "atmosphereAlt": "Atmosphäre des Studios mit natürlichem Licht",
+    "body": [
+      "Das Studio ist ein mit Intention geschaffener Raum, gedacht dafür, dass jeder Mensch den Lärm des Alltags draußen lassen und sich Zeit für das eigene Wohlbefinden nehmen kann.",
+      "Die Aussicht, der Horizont, das natürliche Licht und die Nähe des Meeres begleiten die Praxis und verstärken ein Gefühl von Ruhe und Präsenz, das ebenso Teil der Arbeit ist wie die Übungen selbst.",
+      "Wir arbeiten mit Ausstattung der Klassischen Pilates-Methode. Ein Großteil stammt von Gratz, der Referenzmarke, die von den Originalentwürfen von Joseph Pilates inspiriert ist und aus den USA importiert wird. Das Studio verfügt über die vollständige Ausstattung der Methode, einschließlich Reformer und Barrel.",
+      "Die Sessions sind personalisiert und passen sich der Geschichte, den Bedürfnissen und dem Prozess jedes Menschen an."
+    ],
+    "cta": "Probestunde buchen",
+    "ctaSecondary": "Per WhatsApp anfragen"
+  },
+  "sessions": {
+    "metaTitle": "Personalisierte Sessions",
+    "metaDescription": "Sessions in Klassischem Pilates, einzeln oder im Duo, in Palma de Mallorca — immer personalisiert. Erfrage Optionen und Preise per WhatsApp.",
+    "title": "Personalisierte Sessions",
+    "intro": "Jede Session wird für dich gestaltet. Keine großen Gruppen, keine Routinen von der Stange.",
+    "private": {
+      "title": "Einzelsession",
+      "text": "Die volle Aufmerksamkeit für dich: eine tiefe, maßgeschneiderte Arbeit — ideal für den Einstieg, zum Verfeinern der Technik oder zur Begleitung eines konkreten körperlichen Prozesses."
+    },
+    "duo": {
+      "title": "Duo-Session",
+      "text": "Teile die Session mit deinem Partner, einem Familienmitglied oder einer Freundin. Die Betreuung bleibt persönlich: Jeder Körper arbeitet nach seinen eigenen Bedürfnissen."
+    },
+    "durationNote": "Die genaue Dauer der Session wird bei der Buchung bestätigt.",
+    "pricingNote": "Preise und Karten teilen wir privat mit. Schreib uns per WhatsApp und wir schicken dir alle Informationen.",
+    "ctaPrivate": "Einzelsessions anfragen",
+    "ctaDuo": "Duo-Sessions anfragen",
+    "ctaPricing": "Preise per WhatsApp erfragen",
+    "trialTitle": "Zum ersten Mal im Studio?",
+    "trialText": "Beginne mit einer personalisierten Probestunde für 30 €.",
+    "trialCta": "Meine Probestunde buchen",
+    "imageAlt": "Personalisierte Session in Klassischem Pilates"
+  },
+  "trial": {
+    "metaTitle": "Probestunde — 30 €",
+    "metaDescription": "Buche deine personalisierte Probestunde in Klassischem Pilates in Palma de Mallorca für 30 €. Sichere Online-Zahlung und Terminabstimmung per WhatsApp.",
+    "title": "Deine Probestunde",
+    "price": "30 €",
+    "intro": "Eine personalisierte Session, um dich kennenzulernen, deinem Körper zuzuhören und dir zu zeigen, wie das Klassische Pilates arbeitet.",
+    "includesTitle": "Was enthalten ist",
+    "includes": [
+      "Vollständig personalisierte Probestunde, allein mit Luciana",
+      "Erste Einschätzung deiner Haltung, Beweglichkeit und Ziele",
+      "Einführung in die Geräte der klassischen Methode",
+      "Eine ehrliche Empfehlung, wie du weitermachen kannst — wenn du möchtest"
+    ],
+    "forWhoTitle": "Für wen sie ist",
+    "forWho": [
+      "Für alle, die noch nie Pilates praktiziert haben und gut beginnen möchten",
+      "Für alle, die bereits praktizieren und den klassischen Ansatz kennenlernen möchten",
+      "Für alle, die eine bewusste, begleitete Körperarbeit suchen"
+    ],
+    "durationNote": "Die genaue Dauer wird bei der Buchung bestätigt.",
+    "paymentTitle": "Sichere Zahlung",
+    "paymentText": "Die Zahlung erfolgt online über Stripe, per Karte, verschlüsselt und sicher. Wir speichern keine Daten deiner Karte. Nach der Zahlung stimmen wir Tag und Uhrzeit per WhatsApp ab.",
+    "cta": "Meine Probestunde buchen",
+    "ctaSecondary": "Per WhatsApp anfragen",
+    "checkoutError": "Die Zahlung konnte nicht gestartet werden. Versuche es noch einmal oder schreib uns per WhatsApp.",
+    "checkoutLoading": "Sichere Zahlung wird vorbereitet…",
+    "imageAlt": "Session in Klassischem Pilates im Studio",
+    "scheduleTitle": "Terminreservierung",
+    "scheduleText": "Nach der Zahlung stimmen wir Tag und Uhrzeit direkt per WhatsApp ab. Schon bald kannst du deinen Termin hier online auswählen."
+  },
+  "faq": {
+    "metaTitle": "Häufige Fragen",
+    "metaDescription": "Antworten auf die häufigsten Fragen zum Klassischen Pilates, zur Probestunde, zu den Sessions und zum Studio in Palma de Mallorca.",
+    "title": "Häufige Fragen",
+    "intro": "Alles, was du vor deiner ersten Session wissen solltest.",
+    "items": [
+      { "question": "Was ist Klassisches Pilates?", "answer": "Es ist die von Joseph Pilates geschaffene Originalmethode, weitergegeben mit ihrem Repertoire, ihrer Reihenfolge und ihren Geräten, so wie sie konzipiert wurden. Sie arbeitet den Körper von der Mitte bis in die Gliedmaßen, mit sechs Prinzipien: Konzentration, Kontrolle, Zentrum, Fluss, Präzision und Atmung." },
+      { "question": "Brauche ich Vorerfahrung?", "answer": "Nein. Die Sessions sind personalisiert und passen sich vollständig deinem Ausgangspunkt an. Die Probestunde dient genau dazu, deinen Körper und deinen Moment kennenzulernen." },
+      { "question": "Ist die Probestunde personalisiert?", "answer": "Ja. Es ist eine Einzelsession mit Luciana, in der deine Haltung, deine Beweglichkeit und deine Ziele eingeschätzt werden und du die Methode an den klassischen Geräten erlebst." },
+      { "question": "Welche Kleidung sollte ich tragen?", "answer": "Bequeme, anliegende Kleidung, die die Bewegung sichtbar macht, und Socken. Sportschuhe brauchst du nicht: Es wird barfuß oder in Socken praktiziert." },
+      { "question": "Wo befindet sich das Studio?", "answer": "Das Studio liegt in Palma de Mallorca, direkt am Meer. Bei der Buchung senden wir dir die genaue Adresse und die Anfahrt." },
+      { "question": "Sind die Sessions einzeln oder im Duo?", "answer": "Beides. Du kannst in einer Einzelsession üben, mit der vollen Aufmerksamkeit für dich, oder im Duo mit einer anderen Person — mit einer weiterhin personalisierten Arbeit für jeden Körper." },
+      { "question": "Wie lange dauert eine Session?", "answer": "Die genaue Dauer wird bei der Buchung bestätigt." },
+      { "question": "Wie erfahre ich die Preise?", "answer": "Die Probestunde kostet 30 €. Die übrigen Optionen und Karten teilen wir privat mit: Schreib uns per WhatsApp und wir schicken dir alle Informationen." },
+      { "question": "Wie buche ich meine Probestunde?", "answer": "Über die Seite der Probestunde: Die Zahlung erfolgt sicher online, danach stimmen wir Tag und Uhrzeit per WhatsApp ab." },
+      { "question": "Wie funktioniert die Zahlung?", "answer": "Die Online-Zahlung wird mit Stripe verarbeitet, verschlüsselt und sicher, per Karte. Wir speichern keine Daten deiner Karte." },
+      { "question": "Kann ich eine Buchung ändern oder stornieren?", "answer": "Ja, indem du uns rechtzeitig per WhatsApp kontaktierst. Die genauen Bedingungen für Änderungen und Stornierungen werden bei der Buchung bestätigt." },
+      { "question": "Welche Geräte werden verwendet?", "answer": "Wir arbeiten mit Ausstattung der klassischen Methode, größtenteils von der Marke Gratz, einschließlich Reformer und Barrel, sowie mit Bodenarbeit (Mat)." },
+      { "question": "Ist es geeignet, wenn ich eine Verletzung oder Erkrankung habe?", "answer": "Die personalisierte Arbeit erlaubt es, die Praxis an viele Situationen anzupassen, ersetzt aber keine medizinische Versorgung. Wenn du eine Verletzung oder Erkrankung hast, sprich zuerst mit medizinischem Fachpersonal und erzähle uns davon, bevor du beginnst, damit wir die Session sicher anpassen können." },
+      { "question": "In welchen Sprachen werden die Sessions angeboten?", "answer": "Schreib uns per WhatsApp und wir bestätigen es je nach deiner bevorzugten Sprache." }
+    ]
+  },
+  "contact": {
+    "metaTitle": "Kontakt",
+    "metaDescription": "Schreib Luciana, um Sessions in Klassischem Pilates in Palma de Mallorca anzufragen: per WhatsApp, E-Mail oder Kontaktformular.",
+    "title": "Kontakt",
+    "intro": "Schreib uns per WhatsApp für eine schnellere Antwort oder nutze das Formular — wir melden uns so bald wie möglich.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappText": "Der direkteste Weg, mit Luciana zu sprechen.",
+    "whatsappCta": "WhatsApp öffnen",
+    "form": {
+      "title": "Kontaktformular",
+      "name": "Name",
+      "contactField": "E-Mail oder Telefon",
+      "preference": "Wie möchtest du kontaktiert werden?",
+      "preferenceEmail": "E-Mail",
+      "preferencePhone": "Telefon / WhatsApp",
+      "message": "Nachricht",
+      "consent": "Ich habe die Datenschutzerklärung gelesen und akzeptiere sie.",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet…",
+      "success": "Danke für deine Nachricht. Wir antworten dir so bald wie möglich.",
+      "error": "Die Nachricht konnte nicht gesendet werden. Versuche es noch einmal oder schreib uns per WhatsApp.",
+      "validationName": "Gib deinen Namen ein.",
+      "validationContact": "Gib eine E-Mail-Adresse oder eine Telefonnummer an, damit wir dir antworten können.",
+      "validationMessage": "Schreibe deine Nachricht.",
+      "validationConsent": "Du musst die Datenschutzerklärung akzeptieren."
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog",
+    "metaDescription": "Artikel über Klassisches Pilates, Atmung, Körperbewusstsein und Wohlbefinden am Meer, aus Palma de Mallorca.",
+    "title": "Blog",
+    "intro": "Notizen über die klassische Methode, die Atmung und bewusste Bewegung.",
+    "readingTime": "{minutes} Min. Lesezeit",
+    "updatedOn": "Aktualisiert am {date}",
+    "publishedOn": "Veröffentlicht am {date}",
+    "byAuthor": "Von {author}",
+    "backToBlog": "Zurück zum Blog",
+    "tocTitle": "In diesem Artikel",
+    "relatedCta": "Möchtest du die Methode erleben?",
+    "relatedCtaButton": "Buche deine Probestunde — 30 €",
+    "relatedCtaWhatsApp": "Per WhatsApp anfragen",
+    "categoriesTitle": "Kategorien",
+    "emptyState": "Schon bald veröffentlichen wir neue Artikel."
+  },
+  "payment": {
+    "successMetaTitle": "Zahlung bestätigt",
+    "successTitle": "Danke! Deine Probestunde ist bestätigt",
+    "successText": "Wir haben deine Zahlung von 30 € erhalten. Das ist deine Buchungsreferenz:",
+    "successNoRef": "Wir haben deine Zahlung von 30 € erhalten.",
+    "successNext": "Jetzt fehlt nur noch die Abstimmung von Tag und Uhrzeit. Schreib uns per WhatsApp mit deiner Referenz und wir organisieren alles.",
+    "successCta": "Per WhatsApp abstimmen",
+    "cancelMetaTitle": "Zahlung abgebrochen",
+    "cancelTitle": "Zahlung abgebrochen",
+    "cancelText": "Es wurde nichts abgebucht. Du kannst es jederzeit erneut versuchen oder uns per WhatsApp schreiben, falls es ein Problem mit der Zahlung gab.",
+    "cancelCta": "Zurück zur Probestunde",
+    "cancelCtaSecondary": "Per WhatsApp anfragen"
+  },
+  "ads": {
+    "metaTitle": "Probestunde Klassisches Pilates in Palma — 30 €",
+    "metaDescription": "Probiere Klassisches Pilates in einem Studio direkt am Meer in Palma de Mallorca. Personalisierte Probestunde für 30 €, mit sicherer Online-Zahlung.",
+    "title": "Probestunde Klassisches Pilates in Palma — 30 €",
+    "subtitle": "Eine personalisierte Session, allein mit deiner Trainerin, in einem Studio direkt am Meer.",
+    "cta": "Meine Probestunde buchen",
+    "ctaSecondary": "Per WhatsApp anfragen",
+    "bullets": [
+      "100 % personalisierte Session, keine Gruppenklasse",
+      "Ausstattung der klassischen Methode (Gratz, Reformer, Barrel)",
+      "Studio mit natürlichem Licht und Meerblick in Palma",
+      "Sichere Online-Zahlung mit Stripe; Terminabstimmung per WhatsApp"
+    ],
+    "trustTitle": "Ohne Verpflichtung",
+    "trustText": "Die Probestunde verpflichtet dich zu nichts: Sie ist eine vollständige Session, um die Methode kennenzulernen und in Ruhe zu entscheiden."
+  },
+  "notFound": {
+    "metaTitle": "Seite nicht gefunden",
+    "title": "Diese Seite existiert nicht",
+    "text": "Vielleicht hat sich der Link geändert. Atme durch: Von hier aus kommst du zurück zur Startseite.",
+    "cta": "Zurück zur Startseite"
+  },
+  "legal": {
+    "reviewNotice": "Vorläufiges Dokument, als Vorlage erstellt. Vor dem Launch noch durch eine juristische Fachperson zu prüfen.",
+    "privacy": {
+      "metaTitle": "Datenschutzerklärung",
+      "title": "Datenschutzerklärung",
+      "sections": [
+        { "title": "Verantwortlicher für die Datenverarbeitung", "text": "[PLACEHOLDER: nombre o razón social, NIF, dirección y email de contacto del responsable. Pendiente de datos fiscales definitivos.]" },
+        { "title": "Daten, die wir verarbeiten", "text": "Die Daten, die du uns über das Kontaktformular mitteilst (Name, E-Mail oder Telefon und Nachricht), die Daten, die für die Zahlung der Probestunde nötig sind (verarbeitet durch Stripe; wir speichern keine Kartendaten), und, nur mit deiner Zustimmung, Analysedaten zur Nutzung der Website." },
+        { "title": "Zweck und Rechtsgrundlage", "text": "Beantwortung deiner Anfragen (berechtigtes Interesse / vorvertragliche Maßnahmen), Verwaltung der Buchung und Zahlung der Probestunde (Vertragserfüllung) und Analyse der Websitenutzung (Einwilligung)." },
+        { "title": "Empfänger", "text": "Stripe (Zahlungsabwicklung), der Webhosting-Anbieter und, mit deiner Zustimmung, Google (Analyse und Werbung). Wir verkaufen oder geben deine Daten nicht zu kommerziellen Zwecken an Dritte weiter." },
+        { "title": "Aufbewahrung", "text": "Wir bewahren die Daten so lange auf, wie es nötig ist, um deine Anfrage zu beantworten oder deine Buchung zu verwalten, sowie für die gesetzlich vorgeschriebenen steuerlichen Fristen, sofern zutreffend." },
+        { "title": "Deine Rechte", "text": "Du kannst deine Rechte auf Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung und Datenübertragbarkeit ausüben, indem du an die Kontakt-E-Mail schreibst. Du kannst dich auch bei der spanischen Datenschutzbehörde (aepd.es) beschweren." }
+      ]
+    },
+    "cookiesPage": {
+      "metaTitle": "Cookie-Richtlinie",
+      "title": "Cookie-Richtlinie",
+      "sections": [
+        { "title": "Was Cookies sind", "text": "Kleine Dateien, die beim Surfen auf deinem Gerät gespeichert werden. Wir verwenden notwendige eigene Cookies und, nur mit deiner Zustimmung, Analyse- und Marketing-Cookies von Drittanbietern." },
+        { "title": "Notwendige Cookies", "text": "Unverzichtbar für das Funktionieren der Website (zum Beispiel, um deine Cookie-Entscheidung zu speichern). Sie erfordern keine Einwilligung." },
+        { "title": "Analyse-Cookies", "text": "Google Analytics 4, über Google Tag Manager. Sie werden nur geladen, wenn du sie akzeptierst. Sie helfen uns zu verstehen, wie die Website genutzt wird." },
+        { "title": "Marketing-Cookies", "text": "Google Ads (und künftig Meta), um unsere Kampagnen zu messen. Sie werden nur geladen, wenn du sie akzeptierst." },
+        { "title": "Wie du deine Entscheidung änderst", "text": "Du kannst deine Einwilligung jederzeit über den Link „Cookies einstellen“ in der Fußzeile ändern oder widerrufen." }
+      ]
+    },
+    "legalNotice": {
+      "metaTitle": "Impressum",
+      "title": "Impressum",
+      "sections": [
+        { "title": "Betreiber der Website", "text": "[PLACEHOLDER: nombre o razón social, NIF, domicilio y email. Pendiente de datos fiscales definitivos.]" },
+        { "title": "Zweck", "text": "Diese Website informiert über die in Palma de Mallorca angebotenen Leistungen in Klassischem Pilates und ermöglicht die Buchung und Bezahlung einer Probestunde." },
+        { "title": "Geistiges Eigentum", "text": "Die Inhalte dieser Website (Texte, Bilder, Marke) gehören ihrem Inhaber. Ihre Vervielfältigung ohne Genehmigung ist nicht gestattet." },
+        { "title": "Haftung", "text": "Der Inhalt dieser Website dient nur der Information und stellt keinen medizinischen Rat dar. Wende dich bei jeder Verletzung oder Erkrankung an medizinisches Fachpersonal." }
+      ]
+    },
+    "terms": {
+      "metaTitle": "Vertragsbedingungen",
+      "title": "Vertrags- und Stornierungsbedingungen",
+      "sections": [
+        { "title": "Leistung", "text": "Der Online-Kauf entspricht einer personalisierten Probestunde in Klassischem Pilates für 30 € (inklusive Steuern, sofern zutreffend). Tag und Uhrzeit werden nach der Zahlung per WhatsApp abgestimmt." },
+        { "title": "Zahlung", "text": "Die Zahlung wird sicher über Stripe abgewickelt. Wir speichern keine Kartendaten." },
+        { "title": "Änderungen und Stornierungen", "text": "[PENDIENTE DE APROBACIÓN — política propuesta: las cancelaciones o cambios deben comunicarse con al menos una hora de antelación; las cancelaciones con menor antelación podrán considerarse como sesión utilizada.]" },
+        { "title": "Widerrufsrecht", "text": "[PLACEHOLDER: condiciones de desistimiento conforme a la normativa de consumo, pendiente de revisión legal.]" },
+        { "title": "Kontakt", "text": "Für alle Anliegen rund um deine Buchung schreib uns per WhatsApp oder an die Kontakt-E-Mail." }
+      ]
+    }
+  }
+}
