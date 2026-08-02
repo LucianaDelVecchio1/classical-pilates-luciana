@@ -32,9 +32,8 @@ export function Footer() {
     <footer className="mt-20 border-t border-stone/60 bg-sand/40">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 md:grid-cols-3 md:px-6">
         <div>
-          <Seal size={56} className="text-char" />
-          <p className="mt-4 font-display text-xl">{business.name}</p>
-          <p className="mt-1 text-sm text-char-soft max-w-[36ch]">{t("descriptor")}</p>
+          <Seal size={56} />
+          <p className="mt-3 text-sm text-char-soft max-w-[36ch]">{t("descriptor")}</p>
           <p className="mt-4 text-sm italic text-sea-deep max-w-[40ch]">{t("closingQuote")}</p>
         </div>
 

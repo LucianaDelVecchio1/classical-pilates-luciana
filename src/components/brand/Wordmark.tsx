@@ -1,10 +1,11 @@
+import Image from "next/image";
 import { business } from "@/config/business";
 
 /**
- * Wordmark "Ser Classical Pilates" (rebrand 2026-08-02):
- * «Ser» en caligrafía terracota + descriptor CLASSICAL PILATES espaciado.
- * El arte original del logo está en /public/images/logo-ser.jpg (para
- * redes, GBP y material impreso).
+ * Logo oficial "Ser Classical Pilates" (vectorial, texto en curvas).
+ * Archivos: /public/images/logo-ser.svg (transparente, uso web)
+ * y /public/images/logo-ser-beige.svg (con fondo, para redes/impresión).
+ * Proporción del arte: 630×225 (~2,8:1).
  */
 export function Wordmark({
   className,
@@ -13,48 +14,32 @@ export function Wordmark({
   className?: string;
   compact?: boolean;
 }) {
-  if (compact) {
-    return (
-      <span className={`font-script text-3xl text-clay leading-none ${className ?? ""}`}>
-        Ser
-      </span>
-    );
-  }
+  const height = compact ? 40 : 52;
+  const width = Math.round((height * 630) / 225);
   return (
-    <span className={`inline-flex flex-col items-center ${className ?? ""}`}>
-      <span className="font-script text-4xl leading-[0.9] text-clay">Ser</span>
-      <span className="mt-1 text-[0.6rem] uppercase tracking-[0.45em] text-char-soft pl-[0.45em] whitespace-nowrap">
-        {business.instagram.screenName}
-      </span>
-    </span>
+    <Image
+      src="/images/logo-ser.svg"
+      alt={business.name}
+      width={width}
+      height={height}
+      priority
+      className={className}
+    />
   );
 }
 
 /**
- * Sello circular «S» — uso secundario: favicon, avatar, marca de agua.
+ * Versión reducida del logo para el footer y usos secundarios.
+ * (El favicon vive aparte en src/app/icon.svg.)
  */
 export function Seal({ className, size = 48 }: { className?: string; size?: number }) {
   return (
-    <svg
-      viewBox="0 0 100 100"
-      width={size}
+    <Image
+      src="/images/logo-ser.svg"
+      alt={business.name}
+      width={Math.round((size * 630) / 225)}
       height={size}
       className={className}
-      role="img"
-      aria-label={business.name}
-    >
-      <circle cx="50" cy="50" r="47" fill="none" stroke="currentColor" strokeWidth="1.8" />
-      <circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" strokeWidth="0.8" />
-      <text
-        x="50"
-        y="64"
-        textAnchor="middle"
-        fontFamily="var(--font-script)"
-        fontSize="52"
-        fill="currentColor"
-      >
-        S
-      </text>
-    </svg>
+    />
   );
 }
