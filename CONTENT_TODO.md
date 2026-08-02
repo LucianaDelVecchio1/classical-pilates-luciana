@@ -5,7 +5,7 @@ antes del lanzamiento. Cada punto indica dónde se aplica en el código.
 
 ## Identidad y dominio
 
-- [x] **Nombre definitivo**: Classical Pilates Luciana (confirmado 2026-07-29). → `src/config/business.ts`
+- [x] **Nombre definitivo**: Ser Classical Pilates (rebrand confirmado 2026-08-02; antes Classical Pilates Luciana). → `src/config/business.ts`
 - [ ] **Dominio definitivo**: candidato `classicalpilatesluciana.com` (verificar disponibilidad y registrar). → `NEXT_PUBLIC_SITE_URL` y `src/config/business.ts`
 - [ ] **Logotipo definitivo**: la web usa el wordmark provisional "Horizonte". → `src/components/brand/Wordmark.tsx`
 

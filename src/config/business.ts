@@ -4,10 +4,10 @@
  */
 
 export const business = {
-  /** Nombre definitivo confirmado por el cliente el 2026-07-29. */
-  name: "Classical Pilates Luciana",
+  /** Nombre definitivo — rebrand confirmado por el cliente el 2026-08-02. */
+  name: "Ser Classical Pilates",
   /** Nombre corto para contextos reducidos (barra móvil, footer). */
-  shortName: "Luciana",
+  shortName: "Ser",
   /** Descriptor SEO en español; las traducciones viven en messages/. */
   seoDescriptor: "Estudio de Pilates Clásico en Palma de Mallorca",
   legalName: "", // TODO: razón social / nombre fiscal para facturación y aviso legal

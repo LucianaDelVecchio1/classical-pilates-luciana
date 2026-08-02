@@ -31,13 +31,13 @@ export function Header() {
         </Link>
 
         <nav aria-label={t("mainNavAria")} className="hidden lg:block">
-          <ul className="flex items-center gap-6">
+          <ul className="flex items-center gap-5">
             {NAV_ITEMS.map((item) => (
               <li key={item.key}>
                 <Link
                   href={item.href}
                   aria-current={pathname === item.href ? "page" : undefined}
-                  className={`text-sm uppercase tracking-[0.12em] hover:text-sea-deep ${
+                  className={`whitespace-nowrap text-[0.8rem] uppercase tracking-[0.1em] hover:text-sea-deep ${
                     pathname === item.href ? "text-sea-deep" : "text-char"
                   }`}
                 >

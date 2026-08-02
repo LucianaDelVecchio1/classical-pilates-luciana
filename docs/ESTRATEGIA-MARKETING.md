@@ -1,4 +1,4 @@
-# Estrategia de captación — Classical Pilates Luciana
+# Estrategia de captación — Ser Classical Pilates
 
 **Google Ads · Meta Ads · SEO** — Palma de Mallorca · Julio 2026
 Preparada para Matías (dirección) y Luciana (titular de las cuentas).
@@ -57,7 +57,7 @@ Todo lo de abajo es inútil sin medir. La web **ya emite** estos eventos a `data
 El 80 % del SEO de un negocio local es el mapa. En cuanto Luciana cree el perfil (paso 4 de su guía):
 
 1. Categoría principal: **Estudio de pilates**. Secundarias: Gimnasio, Instructor de pilates.
-2. Nombre exacto: `Classical Pilates Luciana` (idéntico a la web — consistencia NAP).
+2. Nombre exacto: `Ser Classical Pilates` (idéntico a la web — consistencia NAP).
 3. Fotos: las mismas 13 de la web + 2-3 nuevas del exterior/entrada.
 4. Servicios con precio solo en "Clase de prueba: 30 €"; resto "consultar".
 5. Botón de mensajes → WhatsApp. Horarios reales.
@@ -104,7 +104,7 @@ El 80 % del SEO de un negocio local es el mapa. En cuanto Luciana cree el perfil
 - Landing en su idioma. Aprendizaje SOLUXE: el segmento DE estaba desatendido — aquí entra desde el día 1.
 
 **Campaña 3 — Marca** (10 %, 1-2 €/día)
-- `classical pilates luciana`, `pilates luciana palma`. Barata, protege la marca cuando el boca-oreja y el IG crezcan.
+- `Ser Classical Pilates`, `pilates luciana palma`. Barata, protege la marca cuando el boca-oreja y el IG crezcan.
 
 **Negativas desde el día 1:** `gratis`, `barato`, `grupo`, `formación`, `curso instructor`, `empleo`, `trabajo`, `máquina comprar`, `segunda mano`, `online`, `vídeo`, `youtube`.
 

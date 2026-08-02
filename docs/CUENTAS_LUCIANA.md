@@ -57,7 +57,7 @@ Google Ads y Google Business Profile en los pasos siguientes.
 ## 4. Google Business Profile (gratis, muy importante para SEO local)
 
 1. Con el mismo email, en https://business.google.com crear el perfil
-   «Classical Pilates Luciana» con la dirección real del estudio.
+   «Ser Classical Pilates» con la dirección real del estudio.
 2. Google enviará una verificación (postal o vídeo).
 3. Invitar a Matías como administrador.
 

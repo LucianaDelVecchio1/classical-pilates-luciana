@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Karla } from "next/font/google";
+import { Cormorant_Garamond, Karla, Great_Vibes } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -24,6 +24,13 @@ const karla = Karla({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
   variable: "--font-karla",
+  display: "swap",
+});
+
+const greatVibes = Great_Vibes({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-greatvibes",
   display: "swap",
 });
 
@@ -64,7 +71,7 @@ export default async function LocaleLayout({
   const t = await getTranslations({ locale, namespace: "a11y" });
 
   return (
-    <html lang={locale} className={`${cormorant.variable} ${karla.variable}`}>
+    <html lang={locale} className={`${cormorant.variable} ${karla.variable} ${greatVibes.variable}`}>
       <body className="min-h-dvh flex flex-col pb-16 md:pb-0">
         <a
           href="#contenido"

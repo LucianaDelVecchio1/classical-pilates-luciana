@@ -1,9 +1,10 @@
 import { business } from "@/config/business";
 
 /**
- * Wordmark tipográfico "Horizonte" (dirección A, aprobada 2026-07-29).
- * Provisional y reemplazable: cuando exista un logotipo definitivo,
- * sustituir este componente sin tocar el resto de la web.
+ * Wordmark "Ser Classical Pilates" (rebrand 2026-08-02):
+ * «Ser» en caligrafía terracota + descriptor CLASSICAL PILATES espaciado.
+ * El arte original del logo está en /public/images/logo-ser.jpg (para
+ * redes, GBP y material impreso).
  */
 export function Wordmark({
   className,
@@ -14,31 +15,23 @@ export function Wordmark({
 }) {
   if (compact) {
     return (
-      <span
-        className={`font-display tracking-[0.3em] text-lg uppercase ${className ?? ""}`}
-      >
-        Classical Pilates
+      <span className={`font-script text-3xl text-clay leading-none ${className ?? ""}`}>
+        Ser
       </span>
     );
   }
   return (
     <span className={`inline-flex flex-col items-center ${className ?? ""}`}>
-      <span className="font-display text-xl uppercase tracking-[0.3em] leading-none pl-[0.3em] whitespace-nowrap">
+      <span className="font-script text-4xl leading-[0.9] text-clay">Ser</span>
+      <span className="mt-1 text-[0.6rem] uppercase tracking-[0.45em] text-char-soft pl-[0.45em] whitespace-nowrap">
         {business.instagram.screenName}
-      </span>
-      <span
-        aria-hidden="true"
-        className="my-1.5 block h-px w-full max-w-[13rem] bg-sea-deep"
-      />
-      <span className="text-[0.65rem] uppercase tracking-[0.5em] text-char-soft pl-[0.5em]">
-        Luciana
       </span>
     </span>
   );
 }
 
 /**
- * Sello "L" (dirección C) — uso secundario: favicon, avatar, marca de agua.
+ * Sello circular «S» — uso secundario: favicon, avatar, marca de agua.
  */
 export function Seal({ className, size = 48 }: { className?: string; size?: number }) {
   return (
@@ -54,15 +47,14 @@ export function Seal({ className, size = 48 }: { className?: string; size?: numb
       <circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" strokeWidth="0.8" />
       <text
         x="50"
-        y="60"
+        y="64"
         textAnchor="middle"
-        fontFamily="var(--font-display)"
-        fontSize="42"
+        fontFamily="var(--font-script)"
+        fontSize="52"
         fill="currentColor"
       >
-        L
+        S
       </text>
-      <line x1="28" y1="70" x2="72" y2="70" stroke="currentColor" strokeWidth="1" />
     </svg>
   );
 }

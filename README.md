@@ -1,4 +1,4 @@
-# Classical Pilates Luciana — web
+# Ser Classical Pilates — web
 
 Web del estudio boutique de Pilates Clásico de Luciana en Palma de Mallorca.
 Multilingüe (es/en/sv/de), orientada a conversión (clase de prueba de 30 €),

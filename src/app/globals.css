@@ -15,8 +15,12 @@
   --color-char: #32352f;
   --color-char-soft: #5a5d54;
 
+  /* Terracota del logo "Ser" (rebrand 2026-08-02) */
+  --color-clay: #b06a4a;
+
   --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
   --font-sans: var(--font-karla), Karla, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-script: var(--font-greatvibes), "Great Vibes", "Brush Script MT", cursive;
 }
 
 :root {

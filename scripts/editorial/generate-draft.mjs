@@ -33,7 +33,7 @@ const EDITORIAL_TEMPLATE = fs.readFileSync(
   "utf8",
 );
 
-const prompt = `Escribe un artículo de blog en español para "Classical Pilates Luciana",
+const prompt = `Escribe un artículo de blog en español para "Ser Classical Pilates",
 un estudio boutique de Pilates Clásico frente al mar en Palma de Mallorca.
 
 TEMA: ${topic}
