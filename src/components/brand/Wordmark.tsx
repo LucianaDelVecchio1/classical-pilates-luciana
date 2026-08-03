@@ -2,11 +2,14 @@ import Image from "next/image";
 import { business } from "@/config/business";
 
 /**
- * Logo oficial "Ser Classical Pilates" (vectorial, texto en curvas).
- * Archivos: /public/images/logo-ser.svg (transparente, uso web)
- * y /public/images/logo-ser-beige.svg (con fondo, para redes/impresión).
- * Proporción del arte: 630×225 (~2,8:1).
+ * Logo oficial "Ser Classical Pilates" (arte original, dorado #B4914F).
+ * /public/images/logo-ser.png — transparente, generado del arte original
+ *   (logo-ser-gold-light.jpg) recortado y con máscara alfa. Proporción 889×455.
+ * /public/images/logo-ser-gold-{light,dark}.jpg — versiones con fondo para
+ *   redes e impresión. (logo-ser.svg es un trazado aproximado; NO usar.)
  */
+const RATIO = 889 / 455;
+
 export function Wordmark({
   className,
   compact = false,
@@ -14,13 +17,12 @@ export function Wordmark({
   className?: string;
   compact?: boolean;
 }) {
-  const height = compact ? 40 : 52;
-  const width = Math.round((height * 630) / 225);
+  const height = compact ? 44 : 56;
   return (
     <Image
-      src="/images/logo-ser.svg"
+      src="/images/logo-ser.png"
       alt={business.name}
-      width={width}
+      width={Math.round(height * RATIO)}
       height={height}
       priority
       className={className}
@@ -28,16 +30,13 @@ export function Wordmark({
   );
 }
 
-/**
- * Versión reducida del logo para el footer y usos secundarios.
- * (El favicon vive aparte en src/app/icon.svg.)
- */
+/** Versión reducida del logo para el footer y usos secundarios. */
 export function Seal({ className, size = 48 }: { className?: string; size?: number }) {
   return (
     <Image
-      src="/images/logo-ser.svg"
+      src="/images/logo-ser.png"
       alt={business.name}
-      width={Math.round((size * 630) / 225)}
+      width={Math.round(size * RATIO)}
       height={size}
       className={className}
     />
