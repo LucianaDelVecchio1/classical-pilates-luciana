@@ -3,13 +3,13 @@
 import { useEffect, useRef, useState } from "react";
 
 /**
- * Vídeo de fondo del héroe de portada (/public/videos/hero-studio.mp4,
- * versión web comprimida de HOMESTUDIO.mp4; póster hero-poster.jpg).
- * Silencioso, en bucle y decorativo (aria-hidden): el contenido accesible
- * es el texto que se superpone. Respeta prefers-reduced-motion mostrando
- * solo el póster.
+ * Vídeo del estudio en la parte superior del home
+ * (/public/videos/hero-studio.mp4, 720×1280 vertical, sin audio).
+ * Se muestra SIEMPRE en su proporción vertical nativa (9:16) — nunca
+ * recortado a horizontal. Decorativo (aria-hidden); respeta
+ * prefers-reduced-motion mostrando solo el póster.
  */
-export function HeroVideo() {
+export function HeroVideo({ className }: { className?: string }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [reducedMotion, setReducedMotion] = useState(false);
 
@@ -29,16 +29,19 @@ export function HeroVideo() {
       video.pause();
     } else {
       video.play().catch(() => {
-        /* autoplay bloqueado: se queda el póster, sin error visible */
+        /* autoplay bloqueado: se queda el póster */
       });
     }
   }, [reducedMotion]);
 
   return (
-    <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
+    <div
+      aria-hidden="true"
+      className={`relative aspect-[9/16] overflow-hidden rounded-sm ${className ?? ""}`}
+    >
       <video
         ref={videoRef}
-        className="h-full w-full object-cover"
+        className="absolute inset-0 h-full w-full object-cover"
         autoPlay={!reducedMotion}
         muted
         loop
@@ -48,8 +51,6 @@ export function HeroVideo() {
       >
         <source src="/videos/hero-studio.mp4" type="video/mp4" />
       </video>
-      {/* Velo para legibilidad del texto sobre el vídeo */}
-      <div className="absolute inset-0 bg-gradient-to-t from-char/70 via-char/30 to-char/20" />
     </div>
   );
 }

@@ -58,31 +58,33 @@ export default async function HomePage({
     <>
       <JsonLd data={[localBusinessSchema(tMeta("descriptor")), personSchema()]} />
 
-      {/* Hero: el vídeo del estudio como gran protagonista */}
-      <section className="relative flex min-h-[88svh] items-end">
-        <HeroVideo />
-        <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-16 pt-28 md:px-6 md:pb-24 fade-in-up">
-          <h1 className="max-w-3xl font-display text-4xl leading-tight text-ivory-soft md:text-6xl">
-            {t("hero.title")}
-          </h1>
-          <p className="mt-5 max-w-prose text-lg text-ivory/90">
-            {t("hero.subtitle")}
-          </p>
-          <div className="mt-8 flex flex-wrap gap-4">
-            <TrackedLink
-              href="/clase-de-prueba"
-              event="click_trial_cta"
-              origin="home-hero"
-              className={ctaOnDarkCls}
-            >
-              {t("hero.ctaPrimary")}
-            </TrackedLink>
-            <WhatsAppLink origin="general" className={ctaOutlineOnDarkCls}>
-              {t("hero.ctaSecondary")}
-            </WhatsAppLink>
+      {/* Hero: vídeo del estudio arriba, en su formato vertical nativo */}
+      <Section className="fade-in-up">
+        <div className="grid items-center gap-10 md:grid-cols-2">
+          <div>
+            <h1 className="font-display text-4xl leading-tight md:text-5xl lg:text-6xl">
+              {t("hero.title")}
+            </h1>
+            <p className="mt-5 max-w-prose text-lg text-char-soft">
+              {t("hero.subtitle")}
+            </p>
+            <div className="mt-8 flex flex-wrap gap-4">
+              <TrackedLink
+                href="/clase-de-prueba"
+                event="click_trial_cta"
+                origin="home-hero"
+                className={ctaPrimaryCls}
+              >
+                {t("hero.ctaPrimary")}
+              </TrackedLink>
+              <WhatsAppLink origin="general" className={ctaSecondaryCls}>
+                {t("hero.ctaSecondary")}
+              </WhatsAppLink>
+            </div>
           </div>
+          <HeroVideo className="mx-auto w-full max-w-sm md:max-w-md" />
         </div>
-      </section>
+      </Section>
 
       {/* Propuesta de valor */}
       <Section tone="sand">
