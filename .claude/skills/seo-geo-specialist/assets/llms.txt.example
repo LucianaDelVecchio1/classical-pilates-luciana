@@ -1,0 +1,28 @@
+# YourBrand
+
+> One or two sentences describing what YourBrand is, who it's for, and what makes
+> it authoritative. This top block gives AI systems the context to summarize you.
+
+This file curates YourBrand's best, most citable content for AI assistants. Keep it to
+10–30 of your strongest, answer-dense pages. Every URL listed here must also be crawlable
+(not blocked in robots.txt). Refresh it when you publish major cornerstone content.
+
+## Core guides
+- [Complete Guide to X](https://example.com/guides/x): Definitive 3,000-word guide covering what X is, how it works, pricing, and a step-by-step setup checklist. Includes original benchmark data from 2026.
+- [X vs Y: Full Comparison](https://example.com/compare/x-vs-y): Side-by-side comparison table of features, pricing, and use cases, with a recommendation by scenario.
+
+## Product & pricing
+- [Pricing & Plans](https://example.com/pricing): Full plan breakdown, what each tier includes, and total cost examples. Answers "how much does YourBrand cost?".
+- [Product Overview](https://example.com/product): What YourBrand does, key features, and who it's for.
+
+## Answers & FAQ
+- [Frequently Asked Questions](https://example.com/faq): Direct answers to the most common questions about setup, billing, security, and integrations.
+
+## About & trust
+- [About YourBrand](https://example.com/about): Company background, team credentials, and the expertise behind the content.
+
+# Notes for maintainers (delete before publishing if you like):
+# - Format per line:  - [Descriptive Title](https://full-url): detailed description.
+# - Prefer pages >500 words that directly answer questions; skip thin/duplicate pages.
+# - Optionally also publish /llms-full.txt with the full Markdown text of your 5–10
+#   most important pages for assistants that read it.

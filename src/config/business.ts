@@ -17,9 +17,9 @@ export const business = {
   // Dominio definitivo registrado en DonDominio el 2026-07-29 (titular: Luciana).
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://classicalpilatesluciana.com",
 
-  // TODO: teléfono definitivo de WhatsApp Business (provisional).
-  whatsappNumber: "+34637037637",
-  whatsappDisplay: "+34 637 037 637",
+  // Teléfono definitivo (actualizado 2026-08-04).
+  whatsappNumber: "+34627546870",
+  whatsappDisplay: "+34 627 546 870",
 
   // Email definitivo (buzón en DonDominio; TODO: crear el buzón en el panel).
   email: "hello@classicalpilatesluciana.com",

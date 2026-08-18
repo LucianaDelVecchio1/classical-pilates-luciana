@@ -1,0 +1,77 @@
+# robots.txt — example for maximum search + AI visibility
+# Place at the domain root: https://example.com/robots.txt
+# Edit the domain and the disallowed paths for your stack.
+# Reminder: robots.txt controls CRAWLING, not indexing. To remove a page from
+# results use a `noindex` meta tag / header, not a Disallow here.
+
+# --- Default: allow everything, block only low-value / private areas ---
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+# WordPress example (uncomment if on WP):
+# Disallow: /wp-admin/
+# Allow: /wp-admin/admin-ajax.php
+
+# --- AI SEARCH / RETRIEVAL bots: ALLOW so your site can be cited in AI answers ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Googlebot & Bingbot power Google AI Overviews and Copilot — NEVER block these.
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# --- AI TRAINING crawlers: EDITORIAL CHOICE ---
+# These gather data to TRAIN future models. Allowing them does not affect whether
+# you get cited in live AI answers (that's the search bots above). Leave "Allow"
+# to opt in, or switch to "Disallow: /" to opt OUT of training use.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# --- Sitemap (always include; update the URL) ---
+Sitemap: https://example.com/sitemap.xml

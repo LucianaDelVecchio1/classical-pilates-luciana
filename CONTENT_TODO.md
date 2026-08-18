@@ -21,8 +21,8 @@ antes del lanzamiento. Cada punto indica dónde se aplica en el código.
 
 - [ ] **Duración definitiva de la sesión: 50 o 60 minutos** (minuta dice 50, Luciana dice 60). → `src/config/business.ts` (sessionDurationMinutes) y FAQ/textos
 - [ ] **Política definitiva de cancelación** (propuesta de 1 hora pendiente de aprobación). → `messages/*.json` (legal.terms) — marcada [PENDIENTE DE APROBACIÓN]
-- [ ] **Teléfono definitivo de WhatsApp Business** (provisional +34 637 037 637). → `src/config/business.ts`
-- [ ] **Email corporativo** (provisional Lucianadv.07@gmail.com). → `src/config/business.ts`
+- [x] **Teléfono definitivo de WhatsApp Business**: +34 627 546 870 (2026-08-04). → `src/config/business.ts`
+- [x] **Email corporativo**: hello@classicalpilatesluciana.com (buzón DonDominio, 2026-07-29). → `src/config/business.ts`
 
 ## Material
 
