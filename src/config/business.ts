@@ -14,15 +14,16 @@ export const business = {
 
   founder: "Luciana",
 
-  // Dominio definitivo registrado en DonDominio el 2026-07-29 (titular: Luciana).
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://classicalpilatesluciana.com",
+  // Dominio definitivo registrado en DonDominio el 2026-08-04 (titular: Luciana).
+  // El antiguo classicalpilatesluciana.com redirige a este.
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://serpilatesclassical.com",
 
   // Teléfono definitivo (actualizado 2026-08-04).
   whatsappNumber: "+34627546870",
   whatsappDisplay: "+34 627 546 870",
 
-  // Email definitivo (buzón en DonDominio; TODO: crear el buzón en el panel).
-  email: "hello@classicalpilatesluciana.com",
+  // Email definitivo (actualizado 2026-08-04).
+  email: "serpilatesclassical@gmail.com",
 
   instagram: {
     url: "https://www.instagram.com/pilatesclasicaluciana/",

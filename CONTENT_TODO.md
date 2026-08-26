@@ -6,7 +6,7 @@ antes del lanzamiento. Cada punto indica dónde se aplica en el código.
 ## Identidad y dominio
 
 - [x] **Nombre definitivo**: Ser Classical Pilates (rebrand confirmado 2026-08-02; antes Classical Pilates Luciana). → `src/config/business.ts`
-- [ ] **Dominio definitivo**: candidato `classicalpilatesluciana.com` (verificar disponibilidad y registrar). → `NEXT_PUBLIC_SITE_URL` y `src/config/business.ts`
+- [x] **Dominio definitivo**: `serpilatesclassical.com` (registrado en DonDominio 2026-08-04; el antiguo classicalpilatesluciana.com redirige a este). → `NEXT_PUBLIC_SITE_URL` y `src/config/business.ts`
 - [ ] **Logotipo definitivo**: la web usa el wordmark provisional "Horizonte". → `src/components/brand/Wordmark.tsx`
 
 ## Estudio
@@ -22,7 +22,7 @@ antes del lanzamiento. Cada punto indica dónde se aplica en el código.
 - [ ] **Duración definitiva de la sesión: 50 o 60 minutos** (minuta dice 50, Luciana dice 60). → `src/config/business.ts` (sessionDurationMinutes) y FAQ/textos
 - [ ] **Política definitiva de cancelación** (propuesta de 1 hora pendiente de aprobación). → `messages/*.json` (legal.terms) — marcada [PENDIENTE DE APROBACIÓN]
 - [x] **Teléfono definitivo de WhatsApp Business**: +34 627 546 870 (2026-08-04). → `src/config/business.ts`
-- [x] **Email corporativo**: hello@classicalpilatesluciana.com (buzón DonDominio, 2026-07-29). → `src/config/business.ts`
+- [x] **Email corporativo**: serpilatesclassical@gmail.com (actualizado 2026-08-04). → `src/config/business.ts`
 
 ## Material
 

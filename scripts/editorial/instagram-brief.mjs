@@ -20,7 +20,7 @@ if (!file || !fs.existsSync(file)) {
 
 const { data, content } = matter(fs.readFileSync(file, "utf8"));
 const slug = path.basename(file, ".mdx");
-const url = `https://classicalpilatesluciana.com/es/blog/${slug}`; // TODO dominio definitivo
+const url = `https://serpilatesclassical.com/es/blog/${slug}`;
 
 const firstParagraph = content
   .split("\n\n")
