@@ -2,13 +2,13 @@ import Image from "next/image";
 import { business } from "@/config/business";
 
 /**
- * Logo oficial "Ser Classical Pilates" (arte original, dorado #B4914F).
- * /public/images/logo-ser.png — transparente, generado del arte original
- *   (logo-ser-gold-light.jpg) recortado y con máscara alfa. Proporción 889×455.
- * /public/images/logo-ser-gold-{light,dark}.jpg — versiones con fondo para
- *   redes e impresión. (logo-ser.svg es un trazado aproximado; NO usar.)
+ * Logo oficial "Ser Classical Pilates" (arte dorado, descriptor "PILATES CLASSICAL").
+ * /public/images/logo-ser.png — transparente, extraído del arte oro-sobre-negro
+ *   conservando el degradado dorado. Proporción 733×380 (2026-08-26).
+ * /public/images/logo-ser-gold-{dark,light}.jpg — versiones con fondo para
+ *   redes e impresión.
  */
-const RATIO = 889 / 455;
+const RATIO = 733 / 380;
 
 export function Wordmark({
   className,
