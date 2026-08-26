@@ -5,6 +5,7 @@ import Script from "next/script";
 import { readConsent, applyConsentMode, type ConsentState } from "@/lib/consent";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
 
 /**
  * Carga GTM únicamente cuando existe consentimiento de analítica o marketing.
@@ -48,6 +49,27 @@ gtag('consent', 'default', {
   wait_for_update: 500
 });`}
       </Script>
+
+      {/* Google Ads (gtag): se carga siempre que exista el ID, apoyándose en
+          los defaults "denied" de Consent Mode v2 declarados arriba. Sin
+          consentimiento de marketing no se guardan cookies; las conversiones
+          se modelan. Esto maximiza la precisión del CPA sin vulnerar el RGPD.
+          Las conversiones concretas las dispara track() (ver lib/analytics). */}
+      {GOOGLE_ADS_ID && (
+        <>
+          <Script
+            id="google-ads-gtag"
+            strategy="afterInteractive"
+            src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`}
+          />
+          <Script id="google-ads-config" strategy="afterInteractive">
+            {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GOOGLE_ADS_ID}');`}
+          </Script>
+        </>
+      )}
       {shouldLoad && (
         <Script id="gtm" strategy="afterInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});

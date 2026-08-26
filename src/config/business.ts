@@ -26,9 +26,9 @@ export const business = {
   email: "serpilatesclassical@gmail.com",
 
   instagram: {
-    url: "https://www.instagram.com/pilatesclasicaluciana/",
-    handle: "@pilatesclasicaluciana",
-    screenName: "Classical Pilates",
+    url: "https://www.instagram.com/serpilatesclassical/",
+    handle: "@serpilatesclassical",
+    screenName: "Ser Classical Pilates",
   },
 
   address: {
