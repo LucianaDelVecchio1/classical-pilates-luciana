@@ -54,7 +54,7 @@
   },
   "whatsapp": {
     "messages": {
-      "trial": "Hola Luciana, me gustaría reservar mi clase de prueba de Pilates Clásico por 30 €.",
+      "trial": "Hola Luciana, estoy interesado/a en la clase de prueba. ¿Qué disponibilidad tendrías para esta semana?",
       "trial-purchased": "Hola Luciana, acabo de comprar mi clase de prueba de Pilates Clásico por 30 €. Me gustaría coordinar día y horario. Mi referencia es: [ID].",
       "pricing": "Hola Luciana, he visitado tu web y me gustaría conocer los precios de las sesiones de Pilates Clásico.",
       "private": "Hola Luciana, me interesan las sesiones privadas individuales de Pilates Clásico. ¿Me puedes dar más información?",
@@ -235,7 +235,7 @@
   },
   "trial": {
     "metaTitle": "Clase de prueba — 30 €",
-    "metaDescription": "Reserva tu clase de prueba personalizada de Pilates Clásico en Palma de Mallorca por 30 €. Pago online seguro y coordinación por WhatsApp.",
+    "metaDescription": "Reserva tu clase de prueba personalizada de Pilates Clásico en Palma de Mallorca por 30 €. Escríbenos por WhatsApp y coordinamos día y hora.",
     "title": "Tu clase de prueba",
     "price": "30 €",
     "intro": "Una sesión personalizada para conocerte, escuchar tu cuerpo y mostrarte cómo trabaja el Pilates Clásico.",
@@ -253,15 +253,15 @@
       "Para quienes buscan un trabajo corporal consciente y acompañado"
     ],
     "durationNote": "La duración exacta se confirma al reservar.",
-    "paymentTitle": "Pago seguro",
-    "paymentText": "El pago se realiza online mediante Stripe, con tarjeta, de forma cifrada y segura. No guardamos ningún dato de tu tarjeta. Tras el pago coordinamos día y hora por WhatsApp.",
+    "paymentTitle": "Cómo reservar",
+    "paymentText": "Escríbenos por WhatsApp para tu clase de prueba (30 €) y te proponemos los horarios disponibles. Coordinamos el día y la hora directamente contigo.",
     "cta": "Reservar mi clase de prueba",
     "ctaSecondary": "Consultar por WhatsApp",
     "checkoutError": "No se ha podido iniciar el pago. Inténtalo de nuevo o escríbenos por WhatsApp.",
     "checkoutLoading": "Preparando el pago seguro…",
     "imageAlt": "Sesión de Pilates Clásico en el estudio",
     "scheduleTitle": "Reserva de horario",
-    "scheduleText": "Tras el pago coordinamos día y hora directamente por WhatsApp. Muy pronto podrás elegir tu horario online desde aquí."
+    "scheduleText": "Coordinamos el día y la hora directamente por WhatsApp, según la disponibilidad de la semana."
   },
   "faq": {
     "metaTitle": "Preguntas frecuentes",

@@ -54,7 +54,7 @@
   },
   "whatsapp": {
     "messages": {
-      "trial": "Hallo Luciana, ich würde gerne meine Probestunde in Klassischem Pilates für 30 € buchen.",
+      "trial": "Hallo Luciana, ich interessiere mich für die Probestunde. Welche Verfügbarkeit hättest du diese Woche?",
       "trial-purchased": "Hallo Luciana, ich habe gerade meine Probestunde in Klassischem Pilates für 30 € gekauft. Ich würde gerne Tag und Uhrzeit abstimmen. Meine Referenz lautet: [ID].",
       "pricing": "Hallo Luciana, ich habe deine Website besucht und würde gerne die Preise für die Sessions in Klassischem Pilates erfahren.",
       "private": "Hallo Luciana, ich interessiere mich für private Einzelsessions in Klassischem Pilates. Kannst du mir mehr Informationen geben?",
@@ -235,7 +235,7 @@
   },
   "trial": {
     "metaTitle": "Probestunde — 30 €",
-    "metaDescription": "Buche deine personalisierte Probestunde in Klassischem Pilates in Palma de Mallorca für 30 €. Sichere Online-Zahlung und Terminabstimmung per WhatsApp.",
+    "metaDescription": "Buche deine personalisierte Probestunde in Klassischem Pilates in Palma de Mallorca für 30 €. Schreib uns per WhatsApp und wir stimmen Tag und Uhrzeit ab.",
     "title": "Deine Probestunde",
     "price": "30 €",
     "intro": "Eine personalisierte Session, um dich kennenzulernen, deinem Körper zuzuhören und dir zu zeigen, wie das Klassische Pilates arbeitet.",
@@ -253,15 +253,15 @@
       "Für alle, die eine bewusste, begleitete Körperarbeit suchen"
     ],
     "durationNote": "Die genaue Dauer wird bei der Buchung bestätigt.",
-    "paymentTitle": "Sichere Zahlung",
-    "paymentText": "Die Zahlung erfolgt online über Stripe, per Karte, verschlüsselt und sicher. Wir speichern keine Daten deiner Karte. Nach der Zahlung stimmen wir Tag und Uhrzeit per WhatsApp ab.",
+    "paymentTitle": "So buchst du",
+    "paymentText": "Schreib uns per WhatsApp für deine Probestunde (30 €) und wir schlagen dir die verfügbaren Zeiten vor. Tag und Uhrzeit stimmen wir direkt mit dir ab.",
     "cta": "Meine Probestunde buchen",
     "ctaSecondary": "Per WhatsApp anfragen",
     "checkoutError": "Die Zahlung konnte nicht gestartet werden. Versuche es noch einmal oder schreib uns per WhatsApp.",
     "checkoutLoading": "Sichere Zahlung wird vorbereitet…",
     "imageAlt": "Session in Klassischem Pilates im Studio",
     "scheduleTitle": "Terminreservierung",
-    "scheduleText": "Nach der Zahlung stimmen wir Tag und Uhrzeit direkt per WhatsApp ab. Schon bald kannst du deinen Termin hier online auswählen."
+    "scheduleText": "Tag und Uhrzeit stimmen wir direkt per WhatsApp ab, je nach Verfügbarkeit der Woche."
   },
   "faq": {
     "metaTitle": "Häufige Fragen",
@@ -344,7 +344,7 @@
   },
   "ads": {
     "metaTitle": "Probestunde Klassisches Pilates in Palma — 30 €",
-    "metaDescription": "Probiere Klassisches Pilates in einem Studio direkt am Meer in Palma de Mallorca. Personalisierte Probestunde für 30 €, mit sicherer Online-Zahlung.",
+    "metaDescription": "Probiere Klassisches Pilates in einem Studio direkt am Meer in Palma de Mallorca. Personalisierte Probestunde für 30 €, Buchung per WhatsApp.",
     "title": "Probestunde Klassisches Pilates in Palma — 30 €",
     "subtitle": "Eine personalisierte Session, allein mit deiner Trainerin, in einem Studio direkt am Meer.",
     "cta": "Meine Probestunde buchen",

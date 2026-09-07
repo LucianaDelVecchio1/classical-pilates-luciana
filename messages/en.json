@@ -54,7 +54,7 @@
   },
   "whatsapp": {
     "messages": {
-      "trial": "Hello Luciana, I would like to book my Classical Pilates trial class for 30 €.",
+      "trial": "Hi Luciana, I'm interested in the trial class. What availability do you have this week?",
       "trial-purchased": "Hello Luciana, I have just purchased my Classical Pilates trial class for 30 €. I would like to arrange a day and time. My reference is: [ID].",
       "pricing": "Hello Luciana, I visited your website and would like to know the prices for Classical Pilates sessions.",
       "private": "Hello Luciana, I am interested in private one-to-one Classical Pilates sessions. Could you tell me more?",
@@ -235,7 +235,7 @@
   },
   "trial": {
     "metaTitle": "Trial class — 30 €",
-    "metaDescription": "Book your personalised Classical Pilates trial class in Palma de Mallorca for 30 €. Secure online payment and scheduling via WhatsApp.",
+    "metaDescription": "Book your personalised Classical Pilates trial class in Palma de Mallorca for 30 €. Message us on WhatsApp and we'll arrange the day and time.",
     "title": "Your trial class",
     "price": "30 €",
     "intro": "A personalised session to meet you, listen to your body and show you how Classical Pilates works.",
@@ -253,15 +253,15 @@
       "For those looking for conscious, guided bodywork"
     ],
     "durationNote": "The exact length is confirmed when you book.",
-    "paymentTitle": "Secure payment",
-    "paymentText": "Payment is made online through Stripe, by card, encrypted and secure. We never store your card details. After payment we arrange the day and time on WhatsApp.",
+    "paymentTitle": "How to book",
+    "paymentText": "Message us on WhatsApp for your trial class (30 €) and we'll suggest the available times. We arrange the day and time directly with you.",
     "cta": "Book my trial class",
     "ctaSecondary": "Ask on WhatsApp",
     "checkoutError": "The payment could not be started. Please try again or write to us on WhatsApp.",
     "checkoutLoading": "Preparing secure payment…",
     "imageAlt": "Classical Pilates session at the studio",
     "scheduleTitle": "Scheduling",
-    "scheduleText": "After payment we arrange the day and time directly on WhatsApp. Soon you'll be able to choose your slot online right here."
+    "scheduleText": "We arrange the day and time directly on WhatsApp, based on the week's availability."
   },
   "faq": {
     "metaTitle": "Frequently asked questions",
@@ -344,7 +344,7 @@
   },
   "ads": {
     "metaTitle": "Classical Pilates trial class in Palma — 30 €",
-    "metaDescription": "Try Classical Pilates in a studio by the sea in Palma de Mallorca. Personalised trial class for 30 €, with secure online payment.",
+    "metaDescription": "Try Classical Pilates in a studio by the sea in Palma de Mallorca. Personalised trial class for 30 €, booked via WhatsApp.",
     "title": "Classical Pilates trial class in Palma — 30 €",
     "subtitle": "A personalised session, one-to-one with your instructor, in a studio by the sea.",
     "cta": "Book my trial class",

@@ -54,7 +54,7 @@
   },
   "whatsapp": {
     "messages": {
-      "trial": "Hej Luciana, jag skulle vilja boka min provklass i klassisk Pilates för 30 €.",
+      "trial": "Hej Luciana, jag är intresserad av provklassen. Vilka tider har du den här veckan?",
       "trial-purchased": "Hej Luciana, jag har just köpt min provklass i klassisk Pilates för 30 €. Jag skulle vilja komma överens om dag och tid. Min referens är: [ID].",
       "pricing": "Hej Luciana, jag har besökt din webbplats och skulle vilja veta priserna för sessionerna i klassisk Pilates.",
       "private": "Hej Luciana, jag är intresserad av de privata individuella sessionerna i klassisk Pilates. Kan du berätta mer?",
@@ -235,7 +235,7 @@
   },
   "trial": {
     "metaTitle": "Provklass — 30 €",
-    "metaDescription": "Boka din personligt anpassade provklass i klassisk Pilates i Palma de Mallorca för 30 €. Säker betalning online och bokning av tid via WhatsApp.",
+    "metaDescription": "Boka din personligt anpassade provklass i klassisk Pilates i Palma de Mallorca för 30 €. Skriv till oss på WhatsApp så bestämmer vi dag och tid.",
     "title": "Din provklass",
     "price": "30 €",
     "intro": "En personligt anpassad session för att lära känna dig, lyssna på din kropp och visa dig hur klassisk Pilates arbetar.",
@@ -253,15 +253,15 @@
       "Dig som söker ett medvetet kroppsarbete med personlig vägledning"
     ],
     "durationNote": "Den exakta längden bekräftas vid bokning.",
-    "paymentTitle": "Säker betalning",
-    "paymentText": "Betalningen sker online via Stripe, med kort, krypterat och säkert. Vi sparar inga kortuppgifter. Efter betalningen kommer vi överens om dag och tid via WhatsApp.",
+    "paymentTitle": "Så bokar du",
+    "paymentText": "Skriv till oss på WhatsApp för din provklass (30 €) så föreslår vi de lediga tiderna. Vi kommer överens om dag och tid direkt med dig.",
     "cta": "Boka min provklass",
     "ctaSecondary": "Fråga via WhatsApp",
     "checkoutError": "Betalningen kunde inte startas. Försök igen eller skriv till oss via WhatsApp.",
     "checkoutLoading": "Förbereder den säkra betalningen…",
     "imageAlt": "Session i klassisk Pilates i studion",
     "scheduleTitle": "Boka tid",
-    "scheduleText": "Efter betalningen kommer vi överens om dag och tid direkt via WhatsApp. Snart kommer du att kunna välja din tid online här."
+    "scheduleText": "Vi kommer överens om dag och tid direkt via WhatsApp, utifrån veckans tillgänglighet."
   },
   "faq": {
     "metaTitle": "Vanliga frågor",
@@ -344,7 +344,7 @@
   },
   "ads": {
     "metaTitle": "Provklass i klassisk Pilates i Palma — 30 €",
-    "metaDescription": "Prova klassisk Pilates i en studio vid havet i Palma de Mallorca. Personligt anpassad provklass för 30 €, med säker betalning online.",
+    "metaDescription": "Prova klassisk Pilates i en studio vid havet i Palma de Mallorca. Personligt anpassad provklass för 30 €, bokning via WhatsApp.",
     "title": "Provklass i klassisk Pilates i Palma — 30 €",
     "subtitle": "En personligt anpassad session, i enrum med din instruktör, i en studio vid havet.",
     "cta": "Boka min provklass",

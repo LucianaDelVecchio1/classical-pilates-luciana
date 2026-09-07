@@ -7,8 +7,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { Section, SectionTitle } from "@/components/ui/Section";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
-import { ctaSecondaryCls } from "@/components/ui/TrackedLink";
-import { CheckoutButton } from "@/components/trial/CheckoutButton";
+import { ctaPrimaryCls, ctaSecondaryCls } from "@/components/ui/TrackedLink";
 import { TrialOfferTracker } from "@/components/trial/TrialOfferTracker";
 import { BookingCalendarSlot } from "@/components/trial/BookingCalendarSlot";
 
@@ -59,8 +58,10 @@ export default async function TrialPage({
             <p className="mt-6 font-display text-6xl text-sea-deep">{t("price")}</p>
             <p className="mt-2 text-sm text-char-soft">{t("durationNote")}</p>
             <div className="mt-8 flex flex-col items-start gap-4">
-              <CheckoutButton origin="trial-page" />
-              <WhatsAppLink origin="trial" className={ctaSecondaryCls}>
+              <WhatsAppLink origin="trial" className={ctaPrimaryCls}>
+                {t("cta")}
+              </WhatsAppLink>
+              <WhatsAppLink origin="general" className={ctaSecondaryCls}>
                 {t("ctaSecondary")}
               </WhatsAppLink>
             </div>

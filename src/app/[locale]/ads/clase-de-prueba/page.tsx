@@ -8,8 +8,7 @@ import { Section } from "@/components/ui/Section";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { FaqList } from "@/components/ui/FaqList";
 import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
-import { ctaSecondaryCls } from "@/components/ui/TrackedLink";
-import { CheckoutButton } from "@/components/trial/CheckoutButton";
+import { ctaPrimaryCls, ctaSecondaryCls } from "@/components/ui/TrackedLink";
 import { TrialOfferTracker } from "@/components/trial/TrialOfferTracker";
 
 /**
@@ -66,8 +65,10 @@ export default async function AdsLandingPage({
               ))}
             </ul>
             <div className="mt-8 flex flex-col items-start gap-4">
-              <CheckoutButton origin="ads-landing" />
-              <WhatsAppLink origin="trial" className={ctaSecondaryCls}>
+              <WhatsAppLink origin="trial" className={ctaPrimaryCls}>
+                {tTrial("cta")}
+              </WhatsAppLink>
+              <WhatsAppLink origin="general" className={ctaSecondaryCls}>
                 {t("ctaSecondary")}
               </WhatsAppLink>
             </div>
@@ -96,7 +97,9 @@ export default async function AdsLandingPage({
           <FaqList items={faqItems} />
         </div>
         <div className="mt-10">
-          <CheckoutButton origin="ads-landing-bottom" />
+          <WhatsAppLink origin="trial" className={ctaPrimaryCls}>
+            {tTrial("cta")}
+          </WhatsAppLink>
         </div>
       </Section>
     </>
