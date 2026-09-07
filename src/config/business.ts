@@ -31,6 +31,9 @@ export const business = {
     screenName: "Ser Pilates Classical",
   },
 
+  // Perfil de empresa de Google (enlace directo para dejar una reseña).
+  googleReviewUrl: "https://g.page/r/CcxdZN3IhZPoEBM/review",
+
   address: {
     // TODO: dirección exacta del estudio pendiente de confirmación.
     // No publicar dirección ni coordenadas hasta tenerlas confirmadas.

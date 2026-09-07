@@ -18,7 +18,11 @@ export function localBusinessSchema(descriptor: string) {
     url: business.url,
     email: business.email,
     telephone: business.whatsappNumber,
-    sameAs: [business.instagram.url],
+    sameAs: [
+      business.instagram.url,
+      // Perfil de empresa de Google (sin el sufijo /review, para identidad de entidad).
+      business.googleReviewUrl.replace(/\/review$/, ""),
+    ],
     address: {
       "@type": "PostalAddress",
       addressLocality: business.address.locality,

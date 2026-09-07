@@ -78,6 +78,16 @@ export function Footer() {
                 Instagram {business.instagram.handle}
               </a>
             </li>
+            <li>
+              <a
+                href={business.googleReviewUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-sea-deep"
+              >
+                {t("googleReviews")}
+              </a>
+            </li>
             <li className="text-char-soft">{business.address.locality}</li>
           </ul>
         </div>
