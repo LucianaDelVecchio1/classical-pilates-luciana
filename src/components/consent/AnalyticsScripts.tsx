@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react";
 import Script from "next/script";
 import { readConsent, applyConsentMode, type ConsentState } from "@/lib/consent";
+import { googleAdsId } from "@/config/ads";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID;
-const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+const GOOGLE_ADS_ID = googleAdsId;
 
 /**
  * Carga GTM únicamente cuando existe consentimiento de analítica o marketing.

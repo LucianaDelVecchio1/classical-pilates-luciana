@@ -1,5 +1,7 @@
 "use client";
 
+import { googleAdsId, googleAdsLabelLead, googleAdsLabelWhatsapp } from "@/config/ads";
+
 /**
  * Capa fina de analítica: empuja eventos a dataLayer (GTM) solo si existe.
  * GTM únicamente se carga tras el consentimiento (ver AnalyticsScripts),
@@ -27,16 +29,15 @@ declare global {
 
 /**
  * Acciones de conversión de Google Ads. Cada evento aquí dispara, además del
- * push a dataLayer, una conversión gtag hacia AW-XXX/ETIQUETA. Las etiquetas
- * llegan por variable de entorno; si faltan, no se dispara nada (dormido).
+ * push a dataLayer, una conversión gtag hacia AW-XXX/ETIQUETA (ver config/ads).
  * Métrica objetivo: CPA (coste por conversión).
  */
-const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+const GOOGLE_ADS_ID = googleAdsId;
 const ADS_CONVERSION_LABELS: Partial<Record<AnalyticsEvent, string | undefined>> = {
   // Clic en "Enviar mensaje" del formulario (se cuenta al enviarse correctamente).
-  submit_lead_form: process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL_LEAD,
+  submit_lead_form: googleAdsLabelLead,
   // Clic en cualquier botón de contacto por WhatsApp.
-  click_whatsapp: process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL_WHATSAPP,
+  click_whatsapp: googleAdsLabelWhatsapp,
 };
 
 export function track(
