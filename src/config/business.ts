@@ -4,8 +4,8 @@
  */
 
 export const business = {
-  /** Nombre definitivo — rebrand confirmado por el cliente el 2026-08-02. */
-  name: "Ser Classical Pilates",
+  /** Nombre definitivo — orden confirmado por el cliente el 2026-08-26. */
+  name: "Ser Pilates Classical",
   /** Nombre corto para contextos reducidos (barra móvil, footer). */
   shortName: "Ser",
   /** Descriptor SEO en español; las traducciones viven en messages/. */
@@ -28,7 +28,7 @@ export const business = {
   instagram: {
     url: "https://www.instagram.com/serpilatesclassical/",
     handle: "@serpilatesclassical",
-    screenName: "Ser Classical Pilates",
+    screenName: "Ser Pilates Classical",
   },
 
   address: {

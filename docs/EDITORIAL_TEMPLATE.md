@@ -1,4 +1,4 @@
-# Plantilla editorial — blog Ser Classical Pilates
+# Plantilla editorial — blog Ser Pilates Classical
 
 Todo artículo (humano o generado) debe cumplir esta plantilla. La validación
 automática (`scripts/editorial/validate-content.mjs`) la aplica antes de abrir el PR.
