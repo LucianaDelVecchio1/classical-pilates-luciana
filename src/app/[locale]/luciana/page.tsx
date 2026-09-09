@@ -74,14 +74,6 @@ export default async function LucianaPage({
           </div>
         </div>
       </Section>
-      <Section tone="sand">
-        <ImagePlaceholder
-          name="classical-pilates-session"
-          alt={t("sessionImageAlt")}
-          ratio="hero"
-          sizes="100vw"
-        />
-      </Section>
     </>
   );
 }
