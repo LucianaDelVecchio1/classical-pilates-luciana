@@ -5,7 +5,8 @@
  * sin tocar ninguna página.
  *
  * Reserva sin uso actual: chair-pedal-detail.jpg (detalle del pedal de la
- * Wunda Chair) y luciana-practice-{1,2,3}.jpg (prácticas para blog/IG).
+ * Wunda Chair). luciana-practice-{1,2,3}.jpg son las portadas de los 3
+ * artículos del blog (ver content/blog/es/*.mdx).
  */
 export const REAL_IMAGES: Record<string, string> = {
   "luciana-hero": "/images/luciana-hero.jpg",
@@ -16,4 +17,7 @@ export const REAL_IMAGES: Record<string, string> = {
   "studio-atmosphere": "/images/studio-atmosphere.jpg",
   "classical-pilates-session": "/images/classical-pilates-session.jpg",
   "movement-detail": "/images/movement-detail.jpg",
+  "luciana-practice-1": "/images/luciana-practice-1.jpg",
+  "luciana-practice-2": "/images/luciana-practice-2.jpg",
+  "luciana-practice-3": "/images/luciana-practice-3.jpg",
 };

@@ -60,9 +60,9 @@ export default async function StudioPage({
           ))}
         </div>
         <div className="mt-10 grid gap-6 sm:grid-cols-3">
-          <ImagePlaceholder name="studio-reformer" alt={t("reformerAlt")} ratio="square" />
-          <ImagePlaceholder name="studio-barrel" alt={t("barrelAlt")} ratio="square" />
-          <ImagePlaceholder name="studio-atmosphere" alt={t("atmosphereAlt")} ratio="square" />
+          <ImagePlaceholder name="studio-reformer" alt={t("reformerAlt")} ratio="portrait" />
+          <ImagePlaceholder name="studio-barrel" alt={t("barrelAlt")} ratio="portrait" />
+          <ImagePlaceholder name="studio-atmosphere" alt={t("atmosphereAlt")} ratio="portrait" />
         </div>
         <div className="mt-12 flex flex-wrap gap-4">
           <TrackedLink

@@ -49,7 +49,7 @@ export default async function MethodPage({
           <ImagePlaceholder
             name="movement-detail"
             alt={t("imageAlt")}
-            ratio="hero"
+            ratio="landscape"
             priority
             sizes="100vw"
           />
