@@ -16,6 +16,7 @@ export const REAL_IMAGES: Record<string, string> = {
   "studio-barrel": "/images/studio-barrel.jpg",
   "studio-atmosphere": "/images/studio-atmosphere.jpg",
   "classical-pilates-session": "/images/classical-pilates-session.jpg",
+  "trial-class": "/images/trial-class.jpg",
   "movement-detail": "/images/movement-detail.jpg",
   "luciana-practice-1": "/images/luciana-practice-1.jpg",
   "luciana-practice-2": "/images/luciana-practice-2.jpg",

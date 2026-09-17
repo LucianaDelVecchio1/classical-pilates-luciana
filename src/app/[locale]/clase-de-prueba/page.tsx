@@ -67,7 +67,7 @@ export default async function TrialPage({
             </div>
           </div>
           <ImagePlaceholder
-            name="classical-pilates-session"
+            name="trial-class"
             alt={t("imageAlt")}
             ratio="portrait"
             priority
