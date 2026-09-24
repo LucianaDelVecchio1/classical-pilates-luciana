@@ -69,15 +69,7 @@ export default async function HomePage({
               {t("hero.subtitle")}
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <TrackedLink
-                href="/clase-de-prueba"
-                event="click_trial_cta"
-                origin="home-hero"
-                className={ctaPrimaryCls}
-              >
-                {t("hero.ctaPrimary")}
-              </TrackedLink>
-              <WhatsAppLink origin="general" className={ctaSecondaryCls}>
+              <WhatsAppLink origin="general" className={ctaPrimaryCls}>
                 {t("hero.ctaSecondary")}
               </WhatsAppLink>
             </div>

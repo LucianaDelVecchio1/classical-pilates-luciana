@@ -18,6 +18,12 @@ const RATIOS = {
   square: "aspect-square",
 } as const;
 
+const OBJECT_POSITION = {
+  top: "object-top",
+  center: "object-center",
+  bottom: "object-bottom",
+} as const;
+
 export function ImagePlaceholder({
   name,
   alt,
@@ -26,6 +32,7 @@ export function ImagePlaceholder({
   priority = false,
   className,
   sizes = "(max-width: 768px) 100vw, 50vw",
+  objectPosition = "center",
 }: {
   /** Nombre descriptivo del asset (p. ej. "studio-sea-view"). */
   name: string;
@@ -36,6 +43,8 @@ export function ImagePlaceholder({
   priority?: boolean;
   className?: string;
   sizes?: string;
+  /** Anclaje del recorte (object-position) cuando la foto no cabe entera. */
+  objectPosition?: keyof typeof OBJECT_POSITION;
 }) {
   const resolvedSrc = src ?? REAL_IMAGES[name];
 
@@ -49,7 +58,7 @@ export function ImagePlaceholder({
           sizes={sizes}
           priority={priority}
           loading={priority ? undefined : "lazy"}
-          className="object-cover"
+          className={`object-cover ${OBJECT_POSITION[objectPosition]}`}
         />
       </div>
     );

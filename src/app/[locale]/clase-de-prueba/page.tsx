@@ -70,6 +70,7 @@ export default async function TrialPage({
             name="trial-class"
             alt={t("imageAlt")}
             ratio="portrait"
+            objectPosition="top"
             priority
           />
         </div>
