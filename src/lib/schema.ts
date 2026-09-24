@@ -65,12 +65,6 @@ export function trialServiceSchema(name: string, description: string) {
     description,
     provider: { "@id": `${business.url}/#business` },
     areaServed: "Palma de Mallorca",
-    offers: {
-      "@type": "Offer",
-      price: String(business.trialClass.priceEur),
-      priceCurrency: business.trialClass.currency,
-      availability: "https://schema.org/InStock",
-    },
   };
 }
 

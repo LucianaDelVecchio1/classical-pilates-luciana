@@ -8,8 +8,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 - **Identidad centralizada**: nombre, contacto, precios y duración viven en
   `src/config/business.ts`. Nunca hardcodear estos datos en componentes.
-- **Único precio público: 30 €** (clase de prueba). Los demás precios NO
-  viven en el repositorio (repo público): se comunican solo por WhatsApp.
+- **Ningún precio se muestra públicamente** (tampoco el de la clase de prueba):
+  todos los precios se comunican solo por WhatsApp. No hay pago online (Stripe
+  está desactivado); la reserva se coordina por WhatsApp.
 - **Prohibido**: mencionar "Pilates Tania Tsiora"; inventar testimonios,
   certificaciones o direcciones; afirmaciones médicas (curar, eliminar dolor,
   desintoxicar); afirmar la duración de sesión (50/60 min sin confirmar).

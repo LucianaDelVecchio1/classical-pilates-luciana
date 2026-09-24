@@ -1,7 +1,7 @@
 {
   "meta": {
     "descriptor": "Classical Pilates Studio in Palma de Mallorca",
-    "description": "Personalised Classical Pilates sessions by the sea in Palma de Mallorca. Book your trial class for 30 €."
+    "description": "Personalised Classical Pilates sessions by the sea in Palma de Mallorca. Book your trial class."
   },
   "a11y": {
     "skipToContent": "Skip to content"
@@ -16,7 +16,7 @@
     "faq": "FAQ",
     "blog": "Blog",
     "contact": "Contact",
-    "trialCta": "Try a class — 30 €",
+    "trialCta": "Try a class",
     "homeAria": "Go to the home page",
     "mainNavAria": "Main navigation",
     "openMenu": "Open menu",
@@ -56,7 +56,7 @@
   "whatsapp": {
     "messages": {
       "trial": "Hi Luciana, I'm interested in the trial class. What availability do you have this week?",
-      "trial-purchased": "Hello Luciana, I have just purchased my Classical Pilates trial class for 30 €. I would like to arrange a day and time. My reference is: [ID].",
+      "trial-purchased": "Hello Luciana, I have just purchased my Classical Pilates trial class. I would like to arrange a day and time. My reference is: [ID].",
       "pricing": "Hello Luciana, I visited your website and would like to know the prices for Classical Pilates sessions.",
       "private": "Hello Luciana, I am interested in private one-to-one Classical Pilates sessions. Could you tell me more?",
       "duo": "Hello Luciana, we are interested in duo Classical Pilates sessions. Could you tell us more?",
@@ -68,7 +68,7 @@
     "hero": {
       "title": "Classical Pilates by the sea in Palma de Mallorca",
       "subtitle": "Personalised sessions to strengthen your body, improve your posture and move with greater awareness.",
-      "ctaPrimary": "Try a class for 30 €",
+      "ctaPrimary": "Try a class",
       "ctaSecondary": "Talk to Luciana",
       "imageAlt": "Luciana's Classical Pilates studio, with natural light and sea views"
     },
@@ -123,8 +123,8 @@
     },
     "trial": {
       "eyebrow": "Start here",
-      "title": "Your first class, for 30 €",
-      "text": "A personalised session to meet you, listen to your body and show you how the classical method works. Secure online payment.",
+      "title": "Your first class",
+      "text": "A personalised session to meet you, listen to your body and show you how the classical method works.",
       "cta": "Book my trial class",
       "ctaSecondary": "Ask on WhatsApp"
     },
@@ -140,7 +140,7 @@
     },
     "closing": {
       "quote": "With every breath, the sea reminds us that calm always lives in the present moment.",
-      "cta": "Try a class for 30 €",
+      "cta": "Try a class",
       "ctaSecondary": "Talk to Luciana"
     }
   },
@@ -190,7 +190,7 @@
         "text": "You don't need previous experience or a particular fitness level: the method adapts to each person, and personalised attention lets you progress safely, at your own pace."
       }
     ],
-    "cta": "Try the method for 30 €",
+    "cta": "Try the method",
     "ctaSecondary": "Ask on WhatsApp"
   },
   "studio": {
@@ -230,15 +230,14 @@
     "ctaDuo": "Ask about duo sessions",
     "ctaPricing": "Ask about prices on WhatsApp",
     "trialTitle": "First time at the studio?",
-    "trialText": "Start with a personalised trial class for 30 €.",
+    "trialText": "Start with a personalised trial class.",
     "trialCta": "Book my trial class",
     "imageAlt": "Personalised Classical Pilates session"
   },
   "trial": {
-    "metaTitle": "Trial class — 30 €",
-    "metaDescription": "Book your personalised Classical Pilates trial class in Palma de Mallorca for 30 €. Message us on WhatsApp and we'll arrange the day and time.",
+    "metaTitle": "Trial class",
+    "metaDescription": "Book your personalised Classical Pilates trial class in Palma de Mallorca. Message us on WhatsApp and we'll arrange the day and time.",
     "title": "Your trial class",
-    "price": "30 €",
     "intro": "A personalised session to meet you, listen to your body and show you how Classical Pilates works.",
     "includesTitle": "What's included",
     "includes": [
@@ -255,7 +254,7 @@
     ],
     "durationNote": "The exact length is confirmed when you book.",
     "paymentTitle": "How to book",
-    "paymentText": "Message us on WhatsApp for your trial class (30 €) and we'll suggest the available times. We arrange the day and time directly with you.",
+    "paymentText": "Message us on WhatsApp for your trial class and we'll suggest the available times. We arrange the day and time directly with you.",
     "cta": "Book my trial class",
     "ctaSecondary": "Ask on WhatsApp",
     "checkoutError": "The payment could not be started. Please try again or write to us on WhatsApp.",
@@ -277,9 +276,9 @@
       { "question": "Where is the studio located?", "answer": "The studio is in Palma de Mallorca, by the sea. When you book we'll send you the exact address and directions." },
       { "question": "Are sessions one-to-one or duo?", "answer": "Both. You can practise one-to-one, with full attention for you, or as a duo with another person, keeping the work personalised for each body." },
       { "question": "How long is a session?", "answer": "The exact length is confirmed when you book." },
-      { "question": "How do I find out about prices?", "answer": "The trial class costs 30 €. All other options and packs are shared privately: write to us on WhatsApp and we'll send you all the information." },
-      { "question": "How do I book my trial class?", "answer": "From the trial class page: payment is made securely online, and afterwards we arrange the day and time on WhatsApp." },
-      { "question": "How does payment work?", "answer": "Online payment is processed by Stripe, encrypted and secure, by card. We never store your card details." },
+      { "question": "How do I find out about prices?", "answer": "The trial class and all other options and packs are shared privately: write to us on WhatsApp and we'll send you all the information." },
+      { "question": "How do I book my trial class?", "answer": "Message us on WhatsApp from the trial class page: we arrange the day and time, and share the payment options there." },
+      { "question": "How does payment work?", "answer": "Payment options are arranged directly when you book via WhatsApp." },
       { "question": "Can I change or cancel a booking?", "answer": "Yes, by contacting us on WhatsApp in advance. The specific conditions for changes and cancellations are confirmed when you book." },
       { "question": "Which apparatus is used?", "answer": "We work with classical method equipment, largely by Gratz, including Reformer and Barrel, alongside mat work." },
       { "question": "Is it suitable if I have an injury or medical condition?", "answer": "Personalised work makes it possible to adapt the practice to many situations, but it does not replace medical care. If you have an injury or medical condition, consult a healthcare professional first and tell us before starting so we can adapt the session safely." },
@@ -325,7 +324,7 @@
     "backToBlog": "Back to the blog",
     "tocTitle": "In this article",
     "relatedCta": "Would you like to experience the method?",
-    "relatedCtaButton": "Book your trial class — 30 €",
+    "relatedCtaButton": "Book your trial class",
     "relatedCtaWhatsApp": "Ask on WhatsApp",
     "categoriesTitle": "Categories",
     "emptyState": "New articles are coming soon."
@@ -333,8 +332,8 @@
   "payment": {
     "successMetaTitle": "Payment confirmed",
     "successTitle": "Thank you! Your trial class is confirmed",
-    "successText": "We have received your payment of 30 €. This is your booking reference:",
-    "successNoRef": "We have received your payment of 30 €.",
+    "successText": "We have received your payment. This is your booking reference:",
+    "successNoRef": "We have received your payment.",
     "successNext": "All that's left is to arrange the day and time. Write to us on WhatsApp with your reference and we'll organise it.",
     "successCta": "Arrange on WhatsApp",
     "cancelMetaTitle": "Payment cancelled",
@@ -344,9 +343,9 @@
     "cancelCtaSecondary": "Ask on WhatsApp"
   },
   "ads": {
-    "metaTitle": "Classical Pilates trial class in Palma — 30 €",
-    "metaDescription": "Try Classical Pilates in a studio by the sea in Palma de Mallorca. Personalised trial class for 30 €, booked via WhatsApp.",
-    "title": "Classical Pilates trial class in Palma — 30 €",
+    "metaTitle": "Classical Pilates trial class in Palma",
+    "metaDescription": "Try Classical Pilates in a studio by the sea in Palma de Mallorca. Personalised trial class, booked via WhatsApp.",
+    "title": "Classical Pilates trial class in Palma",
     "subtitle": "A personalised session, one-to-one with your instructor, in a studio by the sea.",
     "cta": "Book my trial class",
     "ctaSecondary": "Ask on WhatsApp",
@@ -354,7 +353,7 @@
       "100 % personalised session, not a group class",
       "Classical method equipment (Gratz, Reformer, Barrel)",
       "Studio with natural light and sea views in Palma",
-      "Secure online payment with Stripe; we arrange the time on WhatsApp"
+      "Booking and scheduling via WhatsApp"
     ],
     "trustTitle": "No commitment",
     "trustText": "The trial class doesn't tie you to anything: it's a complete session to experience the method and decide calmly."
@@ -372,9 +371,9 @@
       "title": "Privacy policy",
       "sections": [
         { "title": "Data controller", "text": "[PLACEHOLDER: nombre o razón social, NIF, dirección y email de contacto del responsable. Pendiente de datos fiscales definitivos.]" },
-        { "title": "Data we process", "text": "The data you provide through the contact form (name, email or phone, and message), the data needed to process the trial class payment (handled by Stripe; we never store card details) and, only with your consent, website usage analytics." },
+        { "title": "Data we process", "text": "The data you provide through the contact form (name, email or phone, and message) and, only with your consent, website usage analytics." },
         { "title": "Purpose and legal basis", "text": "Responding to your enquiries (legitimate interest / pre-contractual steps), managing the booking and payment of the trial class (performance of a contract) and analysing website usage (consent)." },
-        { "title": "Recipients", "text": "Stripe (payment processing), the web hosting provider and, with your consent, Google (analytics and advertising). We do not sell or share your data with third parties for commercial purposes." },
+        { "title": "Recipients", "text": "The web hosting provider and, with your consent, Google (analytics and advertising). We do not sell or share your data with third parties for commercial purposes." },
         { "title": "Retention", "text": "We keep your data for as long as needed to handle your enquiry or booking, and for the periods required by tax regulations where applicable." },
         { "title": "Your rights", "text": "You can exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to our contact email. You can also lodge a complaint with the Spanish Data Protection Agency (aepd.es)." }
       ]
@@ -404,8 +403,8 @@
       "metaTitle": "Terms of purchase",
       "title": "Terms of purchase and cancellation",
       "sections": [
-        { "title": "Service", "text": "The online purchase corresponds to a personalised Classical Pilates trial class for 30 € (taxes included where applicable). The day and time are arranged after payment, via WhatsApp." },
-        { "title": "Payment", "text": "Payment is processed securely through Stripe. We never store card details." },
+        { "title": "Service", "text": "The trial class is a personalised Classical Pilates session. The day and time are arranged via WhatsApp." },
+        { "title": "Payment", "text": "Payment options are communicated when booking via WhatsApp." },
         { "title": "Changes and cancellations", "text": "[PENDIENTE DE APROBACIÓN — política propuesta: las cancelaciones o cambios deben comunicarse con al menos una hora de antelación; las cancelaciones con menor antelación podrán considerarse como sesión utilizada.]" },
         { "title": "Right of withdrawal", "text": "[PLACEHOLDER: condiciones de desistimiento conforme a la normativa de consumo, pendiente de revisión legal.]" },
         { "title": "Contact", "text": "For anything related to your booking, write to us on WhatsApp or at our contact email." }

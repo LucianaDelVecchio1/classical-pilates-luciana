@@ -42,7 +42,7 @@ Lee el artículo completo en el enlace de la bio.
 📍 Palma de Mallorca · Pilates Clásico frente al mar
 
 ## Llamada a la acción
-Reserva tu clase de prueba (30 €) — enlace en la bio o WhatsApp.
+Reserva tu clase de prueba — enlace en la bio o WhatsApp.
 
 ## Hashtags (moderados)
 #PilatesClasico #ClassicalPilates #PilatesPalma #PilatesMallorca #${(data.category ?? "").replace(/\s+/g, "")}

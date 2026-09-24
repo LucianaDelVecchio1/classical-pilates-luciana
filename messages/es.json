@@ -1,7 +1,7 @@
 {
   "meta": {
     "descriptor": "Estudio de Pilates Clásico en Palma de Mallorca",
-    "description": "Sesiones personalizadas de Pilates Clásico frente al mar en Palma de Mallorca. Reserva tu clase de prueba por 30 €."
+    "description": "Sesiones personalizadas de Pilates Clásico frente al mar en Palma de Mallorca. Reserva tu clase de prueba."
   },
   "a11y": {
     "skipToContent": "Saltar al contenido"
@@ -16,7 +16,7 @@
     "faq": "Preguntas frecuentes",
     "blog": "Blog",
     "contact": "Contacto",
-    "trialCta": "Prueba una clase — 30 €",
+    "trialCta": "Prueba una clase",
     "homeAria": "Ir a la página de inicio",
     "mainNavAria": "Navegación principal",
     "openMenu": "Abrir menú",
@@ -56,7 +56,7 @@
   "whatsapp": {
     "messages": {
       "trial": "Hola Luciana, estoy interesado/a en la clase de prueba. ¿Qué disponibilidad tendrías para esta semana?",
-      "trial-purchased": "Hola Luciana, acabo de comprar mi clase de prueba de Pilates Clásico por 30 €. Me gustaría coordinar día y horario. Mi referencia es: [ID].",
+      "trial-purchased": "Hola Luciana, acabo de comprar mi clase de prueba de Pilates Clásico. Me gustaría coordinar día y horario. Mi referencia es: [ID].",
       "pricing": "Hola Luciana, he visitado tu web y me gustaría conocer los precios de las sesiones de Pilates Clásico.",
       "private": "Hola Luciana, me interesan las sesiones privadas individuales de Pilates Clásico. ¿Me puedes dar más información?",
       "duo": "Hola Luciana, nos interesan las sesiones dúo de Pilates Clásico. ¿Nos puedes dar más información?",
@@ -68,7 +68,7 @@
     "hero": {
       "title": "Pilates Clásico frente al mar en Palma de Mallorca",
       "subtitle": "Sesiones personalizadas para fortalecer el cuerpo, mejorar la postura y moverte con mayor conciencia.",
-      "ctaPrimary": "Prueba una clase por 30 €",
+      "ctaPrimary": "Prueba una clase",
       "ctaSecondary": "Hablar con Luciana",
       "imageAlt": "El estudio de Pilates Clásico de Luciana, con luz natural y vistas al mar"
     },
@@ -123,8 +123,8 @@
     },
     "trial": {
       "eyebrow": "Empieza aquí",
-      "title": "Tu primera clase, por 30 €",
-      "text": "Una sesión personalizada para conocerte, escuchar tu cuerpo y mostrarte cómo trabaja el método clásico. Pago online seguro.",
+      "title": "Tu primera clase",
+      "text": "Una sesión personalizada para conocerte, escuchar tu cuerpo y mostrarte cómo trabaja el método clásico.",
       "cta": "Reservar mi clase de prueba",
       "ctaSecondary": "Consultar por WhatsApp"
     },
@@ -140,7 +140,7 @@
     },
     "closing": {
       "quote": "El mar nos recuerda, en cada respiración, que la calma siempre habita en el momento presente.",
-      "cta": "Prueba una clase por 30 €",
+      "cta": "Prueba una clase",
       "ctaSecondary": "Hablar con Luciana"
     }
   },
@@ -190,7 +190,7 @@
         "text": "No necesitas experiencia previa ni una condición física concreta: el método se adapta a cada persona, y la atención personalizada permite avanzar con seguridad y a tu propio ritmo."
       }
     ],
-    "cta": "Prueba el método por 30 €",
+    "cta": "Prueba el método",
     "ctaSecondary": "Preguntar por WhatsApp"
   },
   "studio": {
@@ -230,15 +230,14 @@
     "ctaDuo": "Consultar sesiones dúo",
     "ctaPricing": "Consultar precios por WhatsApp",
     "trialTitle": "¿Primera vez en el estudio?",
-    "trialText": "Empieza con una clase de prueba personalizada por 30 €.",
+    "trialText": "Empieza con una clase de prueba personalizada.",
     "trialCta": "Reservar mi clase de prueba",
     "imageAlt": "Sesión personalizada de Pilates Clásico"
   },
   "trial": {
-    "metaTitle": "Clase de prueba — 30 €",
-    "metaDescription": "Reserva tu clase de prueba personalizada de Pilates Clásico en Palma de Mallorca por 30 €. Escríbenos por WhatsApp y coordinamos día y hora.",
+    "metaTitle": "Clase de prueba",
+    "metaDescription": "Reserva tu clase de prueba personalizada de Pilates Clásico en Palma de Mallorca. Escríbenos por WhatsApp y coordinamos día y hora.",
     "title": "Tu clase de prueba",
-    "price": "30 €",
     "intro": "Una sesión personalizada para conocerte, escuchar tu cuerpo y mostrarte cómo trabaja el Pilates Clásico.",
     "includesTitle": "Qué incluye",
     "includes": [
@@ -255,7 +254,7 @@
     ],
     "durationNote": "La duración exacta se confirma al reservar.",
     "paymentTitle": "Cómo reservar",
-    "paymentText": "Escríbenos por WhatsApp para tu clase de prueba (30 €) y te proponemos los horarios disponibles. Coordinamos el día y la hora directamente contigo.",
+    "paymentText": "Escríbenos por WhatsApp para tu clase de prueba y te proponemos los horarios disponibles. Coordinamos el día y la hora directamente contigo.",
     "cta": "Reservar mi clase de prueba",
     "ctaSecondary": "Consultar por WhatsApp",
     "checkoutError": "No se ha podido iniciar el pago. Inténtalo de nuevo o escríbenos por WhatsApp.",
@@ -277,9 +276,9 @@
       { "question": "¿Dónde está ubicado el estudio?", "answer": "El estudio está en Palma de Mallorca, frente al mar. Al reservar te enviamos la dirección exacta y cómo llegar." },
       { "question": "¿Las sesiones son individuales o en dúo?", "answer": "Ambas. Puedes practicar en sesión individual, con atención completa para ti, o en dúo con otra persona, manteniendo un trabajo personalizado para cada cuerpo." },
       { "question": "¿Cuánto dura una sesión?", "answer": "La duración exacta se confirma al reservar." },
-      { "question": "¿Cómo consulto los precios?", "answer": "La clase de prueba cuesta 30 €. El resto de modalidades y bonos se comparten de forma privada: escríbenos por WhatsApp y te enviamos toda la información." },
-      { "question": "¿Cómo reservo mi clase de prueba?", "answer": "Desde la página de la clase de prueba: el pago se realiza online de forma segura y después coordinamos día y hora por WhatsApp." },
-      { "question": "¿Cómo funciona el pago?", "answer": "El pago online se procesa con Stripe, de forma cifrada y segura, con tarjeta. No guardamos ningún dato de tu tarjeta." },
+      { "question": "¿Cómo consulto los precios?", "answer": "La clase de prueba y el resto de modalidades y bonos se comparten de forma privada: escríbenos por WhatsApp y te enviamos toda la información." },
+      { "question": "¿Cómo reservo mi clase de prueba?", "answer": "Escríbenos por WhatsApp desde la página de la clase de prueba: coordinamos el día y la hora, y allí te contamos las opciones de pago." },
+      { "question": "¿Cómo funciona el pago?", "answer": "Las opciones de pago se acuerdan directamente al reservar por WhatsApp." },
       { "question": "¿Puedo cambiar o cancelar una reserva?", "answer": "Sí, contactándonos por WhatsApp con antelación. Las condiciones concretas de cambios y cancelaciones se confirman al reservar." },
       { "question": "¿Qué aparatos se utilizan?", "answer": "Trabajamos con equipamiento del método clásico, en gran parte de la marca Gratz, incluidos Reformer y Barrel, además del trabajo en suelo (Mat)." },
       { "question": "¿Es adecuado si tengo una lesión o condición médica?", "answer": "El trabajo personalizado permite adaptar la práctica a muchas situaciones, pero no sustituye la atención sanitaria. Si tienes una lesión o condición médica, consulta primero con un profesional sanitario y cuéntanoslo antes de empezar para adaptar la sesión con seguridad." },
@@ -325,7 +324,7 @@
     "backToBlog": "Volver al blog",
     "tocTitle": "En este artículo",
     "relatedCta": "¿Quieres experimentar el método?",
-    "relatedCtaButton": "Reserva tu clase de prueba — 30 €",
+    "relatedCtaButton": "Reserva tu clase de prueba",
     "relatedCtaWhatsApp": "Consultar por WhatsApp",
     "categoriesTitle": "Categorías",
     "emptyState": "Muy pronto publicaremos nuevos artículos."
@@ -333,8 +332,8 @@
   "payment": {
     "successMetaTitle": "Pago confirmado",
     "successTitle": "¡Gracias! Tu clase de prueba está confirmada",
-    "successText": "Hemos recibido tu pago de 30 €. Este es tu identificador de reserva:",
-    "successNoRef": "Hemos recibido tu pago de 30 €.",
+    "successText": "Hemos recibido tu pago. Este es tu identificador de reserva:",
+    "successNoRef": "Hemos recibido tu pago.",
     "successNext": "Ahora solo falta coordinar el día y la hora. Escríbenos por WhatsApp con tu referencia y lo organizamos.",
     "successCta": "Coordinar por WhatsApp",
     "cancelMetaTitle": "Pago cancelado",
@@ -344,9 +343,9 @@
     "cancelCtaSecondary": "Consultar por WhatsApp"
   },
   "ads": {
-    "metaTitle": "Clase de prueba de Pilates Clásico en Palma — 30 €",
-    "metaDescription": "Prueba el Pilates Clásico en un estudio frente al mar en Palma de Mallorca. Clase personalizada de prueba por 30 €, con pago online seguro.",
-    "title": "Clase de prueba de Pilates Clásico en Palma — 30 €",
+    "metaTitle": "Clase de prueba de Pilates Clásico en Palma",
+    "metaDescription": "Prueba el Pilates Clásico en un estudio frente al mar en Palma de Mallorca. Clase personalizada de prueba, reserva por WhatsApp.",
+    "title": "Clase de prueba de Pilates Clásico en Palma",
     "subtitle": "Una sesión personalizada, a solas con tu instructora, en un estudio frente al mar.",
     "cta": "Reservar mi clase de prueba",
     "ctaSecondary": "Consultar por WhatsApp",
@@ -354,7 +353,7 @@
       "Sesión 100 % personalizada, no una clase en grupo",
       "Equipamiento del método clásico (Gratz, Reformer, Barrel)",
       "Estudio con luz natural y vistas al mar en Palma",
-      "Pago online seguro con Stripe; coordinamos horario por WhatsApp"
+      "Reserva y coordinación por WhatsApp"
     ],
     "trustTitle": "Sin compromiso",
     "trustText": "La clase de prueba no te obliga a nada: es una sesión completa para conocer el método y decidir con calma."
@@ -372,9 +371,9 @@
       "title": "Política de privacidad",
       "sections": [
         { "title": "Responsable del tratamiento", "text": "[PLACEHOLDER: nombre o razón social, NIF, dirección y email de contacto del responsable. Pendiente de datos fiscales definitivos.]" },
-        { "title": "Datos que tratamos", "text": "Los datos que nos facilitas a través del formulario de contacto (nombre, email o teléfono y mensaje), los datos necesarios para procesar el pago de la clase de prueba (gestionados por Stripe; no almacenamos datos de tarjeta) y, solo con tu consentimiento, datos de analítica de uso de la web." },
+        { "title": "Datos que tratamos", "text": "Los datos que nos facilitas a través del formulario de contacto (nombre, email o teléfono y mensaje) y, solo con tu consentimiento, datos de analítica de uso de la web." },
         { "title": "Finalidad y legitimación", "text": "Responder a tus consultas (interés legítimo / medidas precontractuales), gestionar la reserva y el pago de la clase de prueba (ejecución de contrato) y analizar el uso de la web (consentimiento)." },
-        { "title": "Destinatarios", "text": "Stripe (procesamiento de pagos), el proveedor de alojamiento web y, con tu consentimiento, Google (analítica y publicidad). No vendemos ni cedemos tus datos a terceros con fines comerciales." },
+        { "title": "Destinatarios", "text": "El proveedor de alojamiento web y, con tu consentimiento, Google (analítica y publicidad). No vendemos ni cedemos tus datos a terceros con fines comerciales." },
         { "title": "Conservación", "text": "Conservamos los datos el tiempo necesario para atender tu consulta o gestionar tu reserva, y los plazos exigidos por la normativa fiscal cuando corresponda." },
         { "title": "Tus derechos", "text": "Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo al email de contacto. También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es)." }
       ]
@@ -404,8 +403,8 @@
       "metaTitle": "Términos de contratación",
       "title": "Términos de contratación y cancelación",
       "sections": [
-        { "title": "Servicio", "text": "La compra online corresponde a una clase de prueba personalizada de Pilates Clásico por 30 € (impuestos incluidos cuando corresponda). El día y la hora se coordinan tras el pago, por WhatsApp." },
-        { "title": "Pago", "text": "El pago se procesa de forma segura a través de Stripe. No almacenamos datos de tarjeta." },
+        { "title": "Servicio", "text": "La clase de prueba es una sesión personalizada de Pilates Clásico. El día y la hora se coordinan por WhatsApp." },
+        { "title": "Pago", "text": "Las opciones de pago se comunican al reservar por WhatsApp." },
         { "title": "Cambios y cancelaciones", "text": "[PENDIENTE DE APROBACIÓN — política propuesta: las cancelaciones o cambios deben comunicarse con al menos una hora de antelación; las cancelaciones con menor antelación podrán considerarse como sesión utilizada.]" },
         { "title": "Derecho de desistimiento", "text": "[PLACEHOLDER: condiciones de desistimiento conforme a la normativa de consumo, pendiente de revisión legal.]" },
         { "title": "Contacto", "text": "Para cualquier gestión sobre tu reserva, escríbenos por WhatsApp o al email de contacto." }

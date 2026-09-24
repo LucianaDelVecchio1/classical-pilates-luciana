@@ -55,8 +55,7 @@ export default async function TrialPage({
         <div className="grid items-start gap-12 md:grid-cols-2">
           <div>
             <SectionTitle title={t("title")} intro={t("intro")} />
-            <p className="mt-6 font-display text-6xl text-sea-deep">{t("price")}</p>
-            <p className="mt-2 text-sm text-char-soft">{t("durationNote")}</p>
+            <p className="mt-6 text-sm text-char-soft">{t("durationNote")}</p>
             <div className="mt-8 flex flex-col items-start gap-4">
               <WhatsAppLink origin="trial" className={ctaPrimaryCls}>
                 {t("cta")}

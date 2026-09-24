@@ -45,7 +45,10 @@ export const business = {
     geo: null as { lat: number; lng: number } | null,
   },
 
-  /** Precio público único. El resto de precios NUNCA se renderiza en la web. */
+  /**
+   * Precio interno de la clase de prueba (solo referencia; NO se renderiza).
+   * Ningún precio se muestra en la web: todos se comunican por WhatsApp.
+   */
   trialClass: {
     priceEur: 30,
     currency: "EUR",
@@ -69,9 +72,8 @@ export const business = {
 } as const;
 
 /*
- * Los precios de sesiones y bonos NO viven en este repositorio: se
- * comunican solo de forma privada por WhatsApp. El único precio público
- * es el de la clase de prueba (trialClass, arriba).
+ * Ningún precio se muestra públicamente en la web (tampoco el de la clase
+ * de prueba): todos se comunican solo de forma privada por WhatsApp.
  */
 
 /** Orígenes de conversación de WhatsApp; generan mensajes prellenados distintos. */

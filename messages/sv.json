@@ -1,7 +1,7 @@
 {
   "meta": {
     "descriptor": "Studio för klassisk Pilates i Palma de Mallorca",
-    "description": "Personligt anpassade sessioner i klassisk Pilates vid havet i Palma de Mallorca. Boka din provklass för 30 €."
+    "description": "Personligt anpassade sessioner i klassisk Pilates vid havet i Palma de Mallorca. Boka din provklass."
   },
   "a11y": {
     "skipToContent": "Hoppa till innehållet"
@@ -16,7 +16,7 @@
     "faq": "Vanliga frågor",
     "blog": "Blogg",
     "contact": "Kontakt",
-    "trialCta": "Prova en klass — 30 €",
+    "trialCta": "Prova en klass",
     "homeAria": "Gå till startsidan",
     "mainNavAria": "Huvudnavigering",
     "openMenu": "Öppna menyn",
@@ -56,7 +56,7 @@
   "whatsapp": {
     "messages": {
       "trial": "Hej Luciana, jag är intresserad av provklassen. Vilka tider har du den här veckan?",
-      "trial-purchased": "Hej Luciana, jag har just köpt min provklass i klassisk Pilates för 30 €. Jag skulle vilja komma överens om dag och tid. Min referens är: [ID].",
+      "trial-purchased": "Hej Luciana, jag har just köpt min provklass i klassisk Pilates. Jag skulle vilja komma överens om dag och tid. Min referens är: [ID].",
       "pricing": "Hej Luciana, jag har besökt din webbplats och skulle vilja veta priserna för sessionerna i klassisk Pilates.",
       "private": "Hej Luciana, jag är intresserad av de privata individuella sessionerna i klassisk Pilates. Kan du berätta mer?",
       "duo": "Hej Luciana, vi är intresserade av duo-sessionerna i klassisk Pilates. Kan du berätta mer?",
@@ -68,7 +68,7 @@
     "hero": {
       "title": "Klassisk Pilates vid havet i Palma de Mallorca",
       "subtitle": "Personligt anpassade sessioner för att stärka kroppen, förbättra hållningen och röra dig med större medvetenhet.",
-      "ctaPrimary": "Prova en klass för 30 €",
+      "ctaPrimary": "Prova en klass",
       "ctaSecondary": "Prata med Luciana",
       "imageAlt": "Lucianas studio för klassisk Pilates, med naturligt ljus och havsutsikt"
     },
@@ -123,8 +123,8 @@
     },
     "trial": {
       "eyebrow": "Börja här",
-      "title": "Din första klass, för 30 €",
-      "text": "En personligt anpassad session för att lära känna dig, lyssna på din kropp och visa dig hur den klassiska metoden arbetar. Säker betalning online.",
+      "title": "Din första klass",
+      "text": "En personligt anpassad session för att lära känna dig, lyssna på din kropp och visa dig hur den klassiska metoden arbetar.",
       "cta": "Boka min provklass",
       "ctaSecondary": "Fråga via WhatsApp"
     },
@@ -140,7 +140,7 @@
     },
     "closing": {
       "quote": "Havet påminner oss, i varje andetag, om att lugnet alltid bor i nuet.",
-      "cta": "Prova en klass för 30 €",
+      "cta": "Prova en klass",
       "ctaSecondary": "Prata med Luciana"
     }
   },
@@ -190,7 +190,7 @@
         "text": "Du behöver ingen tidigare erfarenhet eller särskild fysisk form: metoden anpassas efter varje person, och den personliga uppmärksamheten låter dig utvecklas tryggt och i din egen takt."
       }
     ],
-    "cta": "Prova metoden för 30 €",
+    "cta": "Prova metoden",
     "ctaSecondary": "Fråga via WhatsApp"
   },
   "studio": {
@@ -230,15 +230,14 @@
     "ctaDuo": "Fråga om duo-sessioner",
     "ctaPricing": "Fråga om priser via WhatsApp",
     "trialTitle": "Första gången i studion?",
-    "trialText": "Börja med en personligt anpassad provklass för 30 €.",
+    "trialText": "Börja med en personligt anpassad provklass.",
     "trialCta": "Boka min provklass",
     "imageAlt": "Personligt anpassad session i klassisk Pilates"
   },
   "trial": {
-    "metaTitle": "Provklass — 30 €",
-    "metaDescription": "Boka din personligt anpassade provklass i klassisk Pilates i Palma de Mallorca för 30 €. Skriv till oss på WhatsApp så bestämmer vi dag och tid.",
+    "metaTitle": "Provklass",
+    "metaDescription": "Boka din personligt anpassade provklass i klassisk Pilates i Palma de Mallorca. Skriv till oss på WhatsApp så bestämmer vi dag och tid.",
     "title": "Din provklass",
-    "price": "30 €",
     "intro": "En personligt anpassad session för att lära känna dig, lyssna på din kropp och visa dig hur klassisk Pilates arbetar.",
     "includesTitle": "Vad som ingår",
     "includes": [
@@ -255,7 +254,7 @@
     ],
     "durationNote": "Den exakta längden bekräftas vid bokning.",
     "paymentTitle": "Så bokar du",
-    "paymentText": "Skriv till oss på WhatsApp för din provklass (30 €) så föreslår vi de lediga tiderna. Vi kommer överens om dag och tid direkt med dig.",
+    "paymentText": "Skriv till oss på WhatsApp för din provklass så föreslår vi de lediga tiderna. Vi kommer överens om dag och tid direkt med dig.",
     "cta": "Boka min provklass",
     "ctaSecondary": "Fråga via WhatsApp",
     "checkoutError": "Betalningen kunde inte startas. Försök igen eller skriv till oss via WhatsApp.",
@@ -277,9 +276,9 @@
       { "question": "Var ligger studion?", "answer": "Studion ligger i Palma de Mallorca, vid havet. När du bokar skickar vi den exakta adressen och vägbeskrivning." },
       { "question": "Är sessionerna individuella eller i duo?", "answer": "Både och. Du kan träna individuellt, med all uppmärksamhet riktad mot dig, eller i duo med en annan person — arbetet förblir personligt anpassat för varje kropp." },
       { "question": "Hur lång är en session?", "answer": "Den exakta längden bekräftas vid bokning." },
-      { "question": "Hur får jag veta priserna?", "answer": "Provklassen kostar 30 €. Övriga alternativ och klippkort delas privat: skriv till oss via WhatsApp så skickar vi all information." },
-      { "question": "Hur bokar jag min provklass?", "answer": "Via provklassens sida: betalningen sker säkert online och därefter kommer vi överens om dag och tid via WhatsApp." },
-      { "question": "Hur fungerar betalningen?", "answer": "Onlinebetalningen behandlas av Stripe, krypterat och säkert, med kort. Vi sparar inga kortuppgifter." },
+      { "question": "Hur får jag veta priserna?", "answer": "Provklassen och övriga alternativ och klippkort delas privat: skriv till oss via WhatsApp så skickar vi all information." },
+      { "question": "Hur bokar jag min provklass?", "answer": "Skriv till oss via WhatsApp från provklassens sida: vi kommer överens om dag och tid och berättar där om betalningsalternativen." },
+      { "question": "Hur fungerar betalningen?", "answer": "Betalningsalternativen kommer vi överens om direkt vid bokning via WhatsApp." },
       { "question": "Kan jag ändra eller avboka en bokning?", "answer": "Ja, genom att kontakta oss via WhatsApp i god tid. De exakta villkoren för ändringar och avbokningar bekräftas vid bokning." },
       { "question": "Vilka apparater används?", "answer": "Vi arbetar med utrustning från den klassiska metoden, till stor del av märket Gratz, inklusive Reformer och Barrel, samt golvarbete (Mat)." },
       { "question": "Passar det om jag har en skada eller ett medicinskt tillstånd?", "answer": "Det personligt anpassade arbetet gör det möjligt att anpassa träningen till många situationer, men det ersätter inte sjukvård. Om du har en skada eller ett medicinskt tillstånd, rådgör först med sjukvårdspersonal och berätta det för oss innan du börjar, så att vi kan anpassa sessionen på ett tryggt sätt." },
@@ -325,7 +324,7 @@
     "backToBlog": "Tillbaka till bloggen",
     "tocTitle": "I den här artikeln",
     "relatedCta": "Vill du uppleva metoden?",
-    "relatedCtaButton": "Boka din provklass — 30 €",
+    "relatedCtaButton": "Boka din provklass",
     "relatedCtaWhatsApp": "Fråga via WhatsApp",
     "categoriesTitle": "Kategorier",
     "emptyState": "Snart publicerar vi nya artiklar."
@@ -333,8 +332,8 @@
   "payment": {
     "successMetaTitle": "Betalning bekräftad",
     "successTitle": "Tack! Din provklass är bekräftad",
-    "successText": "Vi har tagit emot din betalning på 30 €. Här är din bokningsreferens:",
-    "successNoRef": "Vi har tagit emot din betalning på 30 €.",
+    "successText": "Vi har tagit emot din betalning. Här är din bokningsreferens:",
+    "successNoRef": "Vi har tagit emot din betalning.",
     "successNext": "Nu återstår bara att komma överens om dag och tid. Skriv till oss via WhatsApp med din referens så ordnar vi det.",
     "successCta": "Boka tid via WhatsApp",
     "cancelMetaTitle": "Betalning avbruten",
@@ -344,9 +343,9 @@
     "cancelCtaSecondary": "Fråga via WhatsApp"
   },
   "ads": {
-    "metaTitle": "Provklass i klassisk Pilates i Palma — 30 €",
-    "metaDescription": "Prova klassisk Pilates i en studio vid havet i Palma de Mallorca. Personligt anpassad provklass för 30 €, bokning via WhatsApp.",
-    "title": "Provklass i klassisk Pilates i Palma — 30 €",
+    "metaTitle": "Provklass i klassisk Pilates i Palma",
+    "metaDescription": "Prova klassisk Pilates i en studio vid havet i Palma de Mallorca. Personligt anpassad provklass, bokning via WhatsApp.",
+    "title": "Provklass i klassisk Pilates i Palma",
     "subtitle": "En personligt anpassad session, i enrum med din instruktör, i en studio vid havet.",
     "cta": "Boka min provklass",
     "ctaSecondary": "Fråga via WhatsApp",
@@ -354,7 +353,7 @@
       "100 % personligt anpassad session, inte en gruppklass",
       "Utrustning från den klassiska metoden (Gratz, Reformer, Barrel)",
       "Studio med naturligt ljus och havsutsikt i Palma",
-      "Säker betalning online med Stripe; vi bokar tid via WhatsApp"
+      "Bokning och tidsbokning via WhatsApp"
     ],
     "trustTitle": "Utan förpliktelser",
     "trustText": "Provklassen förbinder dig inte till något: det är en komplett session för att lära känna metoden och bestämma dig i lugn och ro."
@@ -372,9 +371,9 @@
       "title": "Integritetspolicy",
       "sections": [
         { "title": "Personuppgiftsansvarig", "text": "[PLACEHOLDER: nombre o razón social, NIF, dirección y email de contacto del responsable. Pendiente de datos fiscales definitivos.]" },
-        { "title": "Uppgifter vi behandlar", "text": "De uppgifter du lämnar via kontaktformuläret (namn, e-post eller telefon samt meddelande), de uppgifter som krävs för att behandla betalningen av provklassen (hanteras av Stripe; vi lagrar inga kortuppgifter) och, endast med ditt samtycke, analysdata om hur webbplatsen används." },
+        { "title": "Uppgifter vi behandlar", "text": "De uppgifter du lämnar via kontaktformuläret (namn, e-post eller telefon samt meddelande) och, endast med ditt samtycke, analysdata om hur webbplatsen används." },
         { "title": "Ändamål och rättslig grund", "text": "Att besvara dina förfrågningar (berättigat intresse / åtgärder inför avtal), hantera bokningen och betalningen av provklassen (fullgörande av avtal) och analysera hur webbplatsen används (samtycke)." },
-        { "title": "Mottagare", "text": "Stripe (betalningshantering), webbhotellsleverantören och, med ditt samtycke, Google (analys och annonsering). Vi säljer inte och lämnar inte ut dina uppgifter till tredje part i kommersiellt syfte." },
+        { "title": "Mottagare", "text": "Webbhotellsleverantören och, med ditt samtycke, Google (analys och annonsering). Vi säljer inte och lämnar inte ut dina uppgifter till tredje part i kommersiellt syfte." },
         { "title": "Lagringstid", "text": "Vi sparar uppgifterna så länge det behövs för att hantera din förfrågan eller din bokning, samt under de perioder som skattelagstiftningen kräver när det är tillämpligt." },
         { "title": "Dina rättigheter", "text": "Du kan utöva dina rättigheter till tillgång, rättelse, radering, invändning, begränsning och dataportabilitet genom att skriva till kontaktadressen. Du kan också lämna klagomål till den spanska dataskyddsmyndigheten (aepd.es)." }
       ]
@@ -404,8 +403,8 @@
       "metaTitle": "Köpvillkor",
       "title": "Köp- och avbokningsvillkor",
       "sections": [
-        { "title": "Tjänst", "text": "Onlineköpet avser en personligt anpassad provklass i klassisk Pilates för 30 € (inklusive skatter när det är tillämpligt). Dag och tid bestäms efter betalningen, via WhatsApp." },
-        { "title": "Betalning", "text": "Betalningen behandlas säkert via Stripe. Vi lagrar inga kortuppgifter." },
+        { "title": "Tjänst", "text": "Provklassen är en personligt anpassad session i klassisk Pilates. Dag och tid bestäms via WhatsApp." },
+        { "title": "Betalning", "text": "Betalningsalternativen meddelas vid bokning via WhatsApp." },
         { "title": "Ändringar och avbokningar", "text": "[PENDIENTE DE APROBACIÓN — política propuesta: las cancelaciones o cambios deben comunicarse con al menos una hora de antelación; las cancelaciones con menor antelación podrán considerarse como sesión utilizada.]" },
         { "title": "Ångerrätt", "text": "[PLACEHOLDER: condiciones de desistimiento conforme a la normativa de consumo, pendiente de revisión legal.]" },
         { "title": "Kontakt", "text": "För alla frågor om din bokning, skriv till oss via WhatsApp eller till kontaktadressen." }

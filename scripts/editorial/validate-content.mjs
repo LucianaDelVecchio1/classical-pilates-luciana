@@ -27,7 +27,7 @@ const CATEGORIES = [
 const FORBIDDEN_PATTERNS = [
   { re: /tania\s+tsiora/i, msg: "Menciona 'Pilates Tania Tsiora' (prohibido)" },
   { re: /\b(cura|curar|elimina el dolor|desintoxica|sana enfermedades)\b/i, msg: "Posible afirmación médica" },
-  { re: /\b(65|200|120|150|90)\s?€/, msg: "Posible precio interno publicado (solo 30 € es público)" },
+  { re: /\d+\s?€/, msg: "No se publican precios en la web (ni el de la clase de prueba); comunícalos por WhatsApp" },
 ];
 
 const files = process.argv.slice(2).length
