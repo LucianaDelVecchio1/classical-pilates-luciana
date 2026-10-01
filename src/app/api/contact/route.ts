@@ -73,8 +73,11 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "send_failed" }, { status: 502 });
     }
   } else {
-    // Proveedor de email pendiente: registrar recepción (sin volcar el mensaje).
-    console.log(`Mensaje de contacto recibido (${body.locale}); email no configurado aún.`);
+    // Proveedor de email pendiente: el mensaje NO puede entregarse. Se responde
+    // con error para que el formulario derive al visitante a WhatsApp en vez de
+    // mostrar un falso "enviado" (sin volcar el mensaje en el log).
+    console.error(`Mensaje de contacto recibido (${body.locale}) pero email no configurado.`);
+    return NextResponse.json({ error: "email_not_configured" }, { status: 503 });
   }
 
   return NextResponse.json({ ok: true });
