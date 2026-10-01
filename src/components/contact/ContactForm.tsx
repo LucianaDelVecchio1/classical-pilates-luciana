@@ -3,14 +3,15 @@
 import { useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { whatsappLink } from "@/config/business";
 import { track } from "@/lib/analytics";
 
 type Status = "idle" | "sending" | "success" | "error";
 
 /**
- * Formulario de contacto con validación en cliente (la validación de
- * servidor vive en /api/contact) y honeypot antispam.
- * No se envían emails reales hasta configurar RESEND_API_KEY o SMTP.
+ * Formulario de contacto con validación en cliente y honeypot antispam.
+ * No envía email: al enviarlo abre WhatsApp con el mensaje ya escrito
+ * (decisión 2026-10-01; todo el contacto de la web va por WhatsApp).
  */
 export function ContactForm() {
   const t = useTranslations("contact.form");
@@ -18,7 +19,7 @@ export function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [errors, setErrors] = useState<Record<string, string>>({});
 
-  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (status === "sending") return;
     const form = e.currentTarget;
@@ -34,28 +35,25 @@ export function ContactForm() {
     setErrors(clientErrors);
     if (Object.keys(clientErrors).length > 0) return;
 
-    setStatus("sending");
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: data.get("name"),
-          contact: data.get("contact"),
-          preference: data.get("preference"),
-          message: data.get("message"),
-          consent: Boolean(data.get("consent")),
-          website: data.get("website"), // honeypot
-          locale,
-        }),
-      });
-      if (!res.ok) throw new Error(`contact_failed_${res.status}`);
-      setStatus("success");
-      track("submit_lead_form", { origin: "contact-page" });
-      form.reset();
-    } catch {
-      setStatus("error");
-    }
+    // Honeypot relleno → es un bot: no abrir nada.
+    if (String(data.get("website") ?? "")) return;
+
+    // El formulario no envía email: abre WhatsApp con el mensaje ya escrito,
+    // igual que el resto de contactos de la web. Se abre de forma síncrona
+    // dentro del gesto del usuario para que el navegador no lo bloquee.
+    const text = [
+      `${String(data.get("name")).trim()}:`,
+      String(data.get("message")).trim(),
+      "",
+      `${t("contactField")}: ${String(data.get("contact")).trim()}`,
+    ].join("\n");
+    const url = whatsappLink("general", `${text}\n[web:form-${locale}]`);
+    const opened = window.open(url, "_blank", "noopener,noreferrer");
+    if (!opened) window.location.href = url;
+
+    setStatus("success");
+    track("submit_lead_form", { origin: "contact-page" });
+    form.reset();
   };
 
   if (status === "success") {
